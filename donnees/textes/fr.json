@@ -1,0 +1,243 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "Décrire ma panne",
+    "appeler": "Appeler",
+    "sommaire": "Sommaire",
+    "confort": "Le site",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de présentation : les formulaires sont simulés, rien n'est envoyé.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Réparation de menuiseries",
+    "slogan": "Spécialiste dans la réparation de menuiseries",
+    "zone": "Hauts-de-France",
+    "mentions": "Mentions légales : à compléter",
+    "confidentialite": "Politique de confidentialité : à compléter",
+    "schema": "Schéma illustratif",
+    "appel": {
+      "surtitre": "Un appel suffit",
+      "titre1": "Une fenêtre qui coince ?",
+      "titre2": "Appelez.",
+      "texte": "Décrivez la panne au téléphone, ou envoyez-la par écrit avec une photo.",
+      "decrire": "Décrire ma panne",
+      "mascotte": "La mascotte Magik Fenêtre, pouce levé"
+    }
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Magik Fenêtre : réparation de menuiseries dans les Hauts-de-France",
+      "description": "Crémones PVC et alu, roulettes de baie vitrée, poignées : Magik Fenêtre répare vos menuiseries au lieu de les remplacer. Hauts-de-France, 06 27 58 58 06.",
+      "nav": "Accueil",
+      "partageAlt": "Magik Fenêtre, réparation de menuiseries : une baie coulissante entrouverte sur un jardin",
+      "accroche": "Ça coince ? On répare."
+    },
+    "depannages": {
+      "titre": "Dépannages : roulettes, crémones, poignées · Magik Fenêtre",
+      "description": "Roulettes de baie vitrée, crémones PVC et aluminium, poignées, et toutes menuiseries : les dépannages de Magik Fenêtre dans les Hauts-de-France.",
+      "nav": "Dépannages",
+      "partageAlt": "Pièces de menuiserie alignées sur un établi",
+      "accroche": "Ce qu'on répare"
+    },
+    "reparer": {
+      "titre": "Réparer plutôt que remplacer · Magik Fenêtre",
+      "description": "Réparer ou réviser une fenêtre coûte moins cher qu'un remplacement, et c'est plus écologique : Magik Fenêtre change la pièce usée, pas la menuiserie.",
+      "nav": "Réparer ou remplacer",
+      "partageAlt": "Une fenêtre blanche ouverte dans un mur de briques",
+      "accroche": "Réparer votre fenêtre"
+    },
+    "contact": {
+      "titre": "Contact : 06 27 58 58 06 · Magik Fenêtre",
+      "description": "Appelez Magik Fenêtre au 06 27 58 58 06, ou décrivez votre panne avec une photo. Hauts-de-France.",
+      "nav": "Contact",
+      "partageAlt": "Magik Fenêtre : 06 27 58 58 06",
+      "accroche": "Une panne ? Appelez."
+    },
+    "404": {
+      "titre": "Page introuvable · Magik Fenêtre",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Réparation de menuiseries · Hauts-de-France",
+      "titre1": "Ça coince ?",
+      "titre2": "On répare.",
+      "texte": "Crémone, roulettes de baie vitrée, poignée : Magik Fenêtre change la pièce usée, et vous gardez votre fenêtre.",
+      "appeler": "Appeler le 06 27 58 58 06",
+      "decrire": "Décrire ma panne",
+      "info": "PVC et aluminium · toute la région"
+    },
+    "pannes": {
+      "surtitre": "Les dépannages",
+      "titre": "Trois pannes courantes, une seule réparation à faire.",
+      "intro": "Une pièce lâche, et toute la fenêtre semble fichue. En réalité, il suffit souvent de changer cette pièce.",
+      "voir": "Voir le détail",
+      "autresTitre": "Et toutes les autres",
+      "autresTexte": "Magik Fenêtre dépanne toutes les menuiseries. Une autre panne ? Décrivez-la.",
+      "autresLien": "Décrire ma panne"
+    },
+    "eclate": {
+      "surtitre": "Réparer plutôt que remplacer",
+      "titre": "On change la pièce, pas la fenêtre.",
+      "intro": "Une réparation coûte moins cher qu'une fenêtre neuve, et c'est plus écologique : le cadre, l'ouvrant et le vitrage restent en place.",
+      "listeTitre": "Ce qui reste, ce qui change",
+      "lien": "Pourquoi réparer",
+      "poignee": "Poignée : changée si cassée",
+      "ouvrant": "Ouvrant : il reste",
+      "cremone": "Crémone usée : remplacée",
+      "vitrage": "Vitrage : il reste",
+      "dormant": "Dormant, le cadre fixé au mur : il reste"
+    },
+    "diagnostic": {
+      "surtitre": "Diagnostic",
+      "titre": "Qu'est-ce qui coince ?",
+      "intro": "Choisissez la partie qui pose problème sur le schéma.",
+      "souvent": "Souvent",
+      "solution": "Ce que fait Magik Fenêtre",
+      "fenetre": "Fenêtre",
+      "baie": "Baie coulissante",
+      "autre": "Autre chose",
+      "autreTitre": "Une autre panne",
+      "autreSymptome": "Une porte-fenêtre qui force, un vantail qui tombe, autre chose encore.",
+      "autreCause": "Chaque menuiserie a ses pièces : la photo aide à trouver la bonne.",
+      "autreAction": "Dépannage toutes menuiseries.",
+      "autreBouton": "Décrire ma panne"
+    },
+    "facade": {
+      "gauche": "On garde",
+      "droite": "la fenêtre.",
+      "titre": "On garde la fenêtre.",
+      "legende": "Une pièce usée ne condamne pas toute une menuiserie.",
+      "alt": "Façade d'une maison de briques aux fenêtres blanches"
+    },
+    "zone": {
+      "surtitre": "Zone d'intervention",
+      "titre": "Partout dans les Hauts-de-France.",
+      "texte": "Magik Fenêtre intervient dans toute la région : dites simplement votre commune au téléphone.",
+      "mention": "Carte illustrative de la région"
+    },
+    "hero_alt": "Grande baie coulissante entrouverte sur un jardin"
+  },
+  "depannages": {
+    "surtitre": "Spécialiste dans la réparation de menuiseries",
+    "titre": "Dépannages",
+    "texte": "Fenêtres, portes-fenêtres, baies coulissantes, en PVC ou en aluminium : on remet en état ce qui coince.",
+    "bandeauAlt": "Pièces de menuiserie alignées sur un établi : poignées, roulettes, crémone",
+    "symptomes": "Les signes",
+    "ceQuOnFait": "Ce qu'on fait",
+    "autres": {
+      "titre": "Et toutes les autres menuiseries",
+      "texte": "Les trois pannes ci-dessus sont les plus courantes, pas les seules. Magik Fenêtre dépanne toutes les menuiseries.",
+      "lien": "Décrire une autre panne"
+    },
+    "faq": {
+      "surtitre": "Questions fréquentes",
+      "titre": "Avant d'appeler"
+    }
+  },
+  "reparer": {
+    "surtitre": "Réparer plutôt que remplacer",
+    "barre": "Remplacer",
+    "ecrit": "Réparer",
+    "suite": "votre fenêtre.",
+    "texte": "Une réparation ou une révision est plus économique et plus écologique qu'un remplacement. C'est tout le métier de Magik Fenêtre.",
+    "alt": "Une fenêtre blanche ouverte dans un mur de briques",
+    "raisons": {
+      "surtitre": "Deux bonnes raisons",
+      "titre": "Moins cher, et moins de déchets.",
+      "eco": {
+        "titre": "Plus économique",
+        "texte": "Vous payez une pièce et une intervention, pas une menuiserie neuve et sa pose."
+      },
+      "ecolo": {
+        "titre": "Plus écologique",
+        "texte": "La fenêtre reste dans le mur : rien à fabriquer, rien à démonter, rien à jeter, sauf la pièce usée."
+      }
+    },
+    "bilan": {
+      "surtitre": "Concrètement",
+      "titre": "Ce qu'on garde, ce qu'on change.",
+      "garde": "On garde",
+      "change": "On change"
+    },
+    "jardin": {
+      "titre": "La fenêtre reste en place.",
+      "texte": "Pas de dépose, pas de menuiserie neuve : la pièce change, le reste ne bouge pas.",
+      "alt": "Baie coulissante grande ouverte sur un jardin"
+    }
+  },
+  "contact": {
+    "surtitre": "Contact",
+    "titre1": "Une panne ?",
+    "titre2": "Appelez.",
+    "texte": "Le plus simple, c'est un appel. Vous pouvez aussi décrire la panne ci-dessous, avec une photo.",
+    "appeler": "Appeler",
+    "ecrire": "Décrire ma panne",
+    "zone": "Hauts-de-France",
+    "form": {
+      "surtitre": "Par écrit",
+      "titre": "Décrire ma panne",
+      "intro": "Quatre étapes, une minute. Formulaire de démonstration : rien n'est envoyé.",
+      "etape1": "Menuiserie",
+      "q1": "Sur quelle menuiserie ?",
+      "fenetre": "Fenêtre",
+      "porteFenetre": "Porte-fenêtre",
+      "baie": "Baie coulissante",
+      "autre": "Autre",
+      "etape2": "Panne",
+      "q2": "Qu'est-ce qui coince ?",
+      "panne": "Pièce en cause",
+      "roulettes": "Roulettes",
+      "cremone": "Crémone",
+      "poignee": "Poignée",
+      "inconnue": "Je ne sais pas",
+      "materiau": "Matériau",
+      "pvc": "PVC",
+      "alu": "Aluminium",
+      "nsp": "Je ne sais pas",
+      "etape3": "Photo",
+      "q3": "Une photo et quelques mots",
+      "photo": "Photo de la menuiserie (facultatif)",
+      "precisions": "Ce que vous constatez (facultatif)",
+      "etape4": "Coordonnées",
+      "q4": "Où vous rappeler ?",
+      "nom": "Nom",
+      "tel": "Téléphone",
+      "commune": "Commune",
+      "donnees": "Vos coordonnées servent seulement à vous rappeler au sujet de votre panne. Politique de confidentialité : à compléter.",
+      "etape5": "Récapitulatif",
+      "q5": "Tout est juste ?",
+      "precedent": "Retour",
+      "suivant": "Continuer",
+      "envoyer": "Envoyer la demande",
+      "merci": "Demande prête",
+      "fin": "Ceci est une démonstration : rien n'a été envoyé. Sur le site définitif, Magik Fenêtre recevra votre demande.",
+      "recommencer": "Nouvelle demande"
+    },
+    "photo": {
+      "titre": "Une photo aide à repérer la pièce.",
+      "texte": "Prise de l'intérieur, de face, comme ici : la menuiserie entière, et si possible la pièce en gros plan.",
+      "legende": "Une baie coulissante chez un client (photo Magik Fenêtre)."
+    },
+    "ou": {
+      "surtitre": "Zone d'intervention",
+      "titre": "Toute la région Hauts-de-France."
+    }
+  },
+  "introuvable": {
+    "titre1": "Cette page",
+    "titre2": "est coincée.",
+    "texte": "Elle n'existe pas ou plus. Le reste du site, lui, s'ouvre très bien.",
+    "retour": "Retour à l'accueil",
+    "alt": "La mascotte Magik Fenêtre, pouce levé"
+  }
+}

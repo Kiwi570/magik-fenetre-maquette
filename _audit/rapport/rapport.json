@@ -1,0 +1,43 @@
+{
+  "echecs": [],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "retour arrière : changement brusque",
+      "detail": "à 66 ms (différence 22 %) (films/retour-arrière-390.png)",
+      "etape": "films",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "retour arrière",
+      "lieux": [
+        "390×844 retour arrière"
+      ]
+    }
+  ],
+  "nonLances": [],
+  "oks": {
+    "films d’ouverture": 8,
+    "films de transition": 8,
+    "tient dans l’écran": 5,
+    "films des épinglages": 1,
+    "mouvement": 8,
+    "effets du plan": 7,
+    "souris immobile": 5
+  },
+  "infos": [
+    "Audit standard : étapes lourdes sur /, /contact, /depannages, /reparer-plutot-que-remplacer.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Ouverture / (1366×768) : 2533 ms depuis le premier octet",
+    "Ouverture /contact (1366×768) : 2578 ms depuis le premier octet",
+    "Ouverture /depannages (1366×768) : 2184 ms depuis le premier octet",
+    "Ouverture /reparer-plutot-que-remplacer (1366×768) : 2257 ms depuis le premier octet",
+    "Ouverture / (390×844) : 2502 ms depuis le premier octet",
+    "Ouverture /contact (390×844) : 2542 ms depuis le premier octet",
+    "Ouverture /depannages (390×844) : 2158 ms depuis le premier octet",
+    "Ouverture /reparer-plutot-que-remplacer (390×844) : 2236 ms depuis le premier octet",
+    "Tient dans l'écran /contact : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /depannages : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /reparer-plutot-que-remplacer : aucune section épinglée ou plein écran."
+  ],
+  "grille": []
+}

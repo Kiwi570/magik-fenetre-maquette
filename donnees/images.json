@@ -1,0 +1,730 @@
+{
+  "mascotte": {
+    "nom": "mascotte",
+    "source": "recu/magik-fenetre-recu/alex-copie-3.png",
+    "role": "logo",
+    "alt": "La mascotte Magik Fenêtre, pouce levé",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f2e37b548e8b0040",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "mascotte-240.webp",
+      "mascotte-480.webp"
+    ],
+    "poids": {
+      "mascotte-240.webp": 11524,
+      "mascotte-480.webp": 25344
+    },
+    "media": "c.media({ nom: 'mascotte', alt: \"La mascotte Magik Fenêtre, pouce levé\", sizes: '240px' })"
+  },
+  "intervention": {
+    "nom": "intervention",
+    "source": "recu/magik-fenetre-recu/magik-fenetre.jpg",
+    "role": "vignette",
+    "alt": "Baie coulissante à châssis ton bois, vue de l'intérieur sur un jardin, après une intervention Magik Fenêtre",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "157889081b03a7b8",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 27.5,
+      "y": 56.5,
+      "l": 53.5,
+      "h": 39.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1200,
+      "height": 1600,
+      "source": [
+        1200,
+        1600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1200 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "intervention-480.webp",
+      "intervention-640.webp",
+      "intervention-800.webp"
+    ],
+    "poids": {
+      "intervention-480.webp": 42154,
+      "intervention-640.webp": 69886,
+      "intervention-800.webp": 102234
+    },
+    "media": "c.media({ nom: 'intervention', alt: \"Baie coulissante à châssis ton bois, vue de l'intérieur sur un jardin, après une intervention Magik Fenêtre\", cadrage: '50% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 4' })"
+  },
+  "grok/accueil-ouverture": {
+    "nom": "grok/accueil-ouverture",
+    "source": "recu/grok/accueil-ouverture.png",
+    "role": "ouverture",
+    "alt": "Grande baie coulissante entrouverte sur un jardin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "62741352dffee6a0",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 58%"
+    },
+    "cadrage": "50% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 25,
+      "l": 88.5,
+      "h": 71.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.49,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1625,
+      "source": [
+        1300,
+        1625
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,48 fois (source de 1300 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-ouverture-640.webp",
+      "grok/accueil-ouverture-1280.webp",
+      "grok/accueil-ouverture-1920.webp",
+      "grok/accueil-ouverture-mobile-640.webp",
+      "grok/accueil-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/accueil-ouverture-640.webp": 86698,
+      "grok/accueil-ouverture-1280.webp": 236476,
+      "grok/accueil-ouverture-1920.webp": 296230,
+      "grok/accueil-ouverture-mobile-640.webp": 86698,
+      "grok/accueil-ouverture-mobile-1080.webp": 192402
+    },
+    "media": "c.media({ nom: 'grok/accueil-ouverture', alt: \"Grande baie coulissante entrouverte sur un jardin\", cadrage: '50% 58%', cadrageMobile: '50% 58%', sizes: '100vw', priorite: true })"
+  },
+  "grok/panne-roulettes": {
+    "nom": "grok/panne-roulettes",
+    "source": "recu/grok/panne-roulettes.png",
+    "role": "carte-service",
+    "alt": "Bas d'une baie coulissante posée sur son rail",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "e6883b325213dc9a",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "40% 72%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1950,
+      "source": [
+        1300,
+        1950
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/panne-roulettes-480.webp",
+      "grok/panne-roulettes-640.webp",
+      "grok/panne-roulettes-784.webp"
+    ],
+    "poids": {
+      "grok/panne-roulettes-480.webp": 16264,
+      "grok/panne-roulettes-640.webp": 22906,
+      "grok/panne-roulettes-784.webp": 30072
+    },
+    "media": "c.media({ nom: 'grok/panne-roulettes', alt: \"Bas d'une baie coulissante posée sur son rail\", cadrage: '40% 72%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/panne-cremone": {
+    "nom": "grok/panne-cremone",
+    "source": "recu/grok/panne-cremone.png",
+    "role": "carte-service",
+    "alt": "Chant d'une fenêtre PVC ouverte avec sa crémone",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "3394f2a7367e3d2f",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "58% 45%",
+    "sujet": {
+      "x": 4.5,
+      "y": 0,
+      "l": 90.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1950,
+      "source": [
+        1300,
+        1950
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/panne-cremone-480.webp",
+      "grok/panne-cremone-640.webp",
+      "grok/panne-cremone-784.webp"
+    ],
+    "poids": {
+      "grok/panne-cremone-480.webp": 12922,
+      "grok/panne-cremone-640.webp": 17832,
+      "grok/panne-cremone-784.webp": 23510
+    },
+    "media": "c.media({ nom: 'grok/panne-cremone', alt: \"Chant d'une fenêtre PVC ouverte avec sa crémone\", cadrage: '58% 45%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/panne-poignee": {
+    "nom": "grok/panne-poignee",
+    "source": "recu/grok/panne-poignee.png",
+    "role": "carte-service",
+    "alt": "Poignée blanche d'une fenêtre PVC",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "657cd0585d869592",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "57% 35%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1950,
+      "source": [
+        1300,
+        1950
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/panne-poignee-480.webp",
+      "grok/panne-poignee-640.webp",
+      "grok/panne-poignee-784.webp"
+    ],
+    "poids": {
+      "grok/panne-poignee-480.webp": 12452,
+      "grok/panne-poignee-640.webp": 17390,
+      "grok/panne-poignee-784.webp": 22274
+    },
+    "media": "c.media({ nom: 'grok/panne-poignee', alt: \"Poignée blanche d'une fenêtre PVC\", cadrage: '57% 35%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/facade": {
+    "nom": "grok/facade",
+    "source": "recu/grok/facade.png",
+    "role": "section-fond",
+    "alt": "Façade d'une maison de briques aux fenêtres blanches",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "48f448abefd21f90",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "45% 47%"
+    },
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 93.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/facade-640.webp",
+      "grok/facade-1280.webp",
+      "grok/facade-1920.webp",
+      "grok/facade-mobile-640.webp",
+      "grok/facade-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/facade-640.webp": 42834,
+      "grok/facade-1280.webp": 90948,
+      "grok/facade-1920.webp": 142990,
+      "grok/facade-mobile-640.webp": 83764,
+      "grok/facade-mobile-1080.webp": 151078
+    },
+    "media": "c.media({ nom: 'grok/facade', alt: \"Façade d'une maison de briques aux fenêtres blanches\", cadrageMobile: '45% 47%', sizes: '100vw' })"
+  },
+  "grok/depannages-ouverture": {
+    "nom": "grok/depannages-ouverture",
+    "source": "recu/grok/depannages-ouverture.png",
+    "role": "ouverture",
+    "alt": "Pièces de menuiserie alignées sur un établi : poignées, roulettes, crémone",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a959ca98f4f37987",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "46% 52%"
+    },
+    "cadrage": "62% 62%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 90.6,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/depannages-ouverture-640.webp",
+      "grok/depannages-ouverture-1280.webp",
+      "grok/depannages-ouverture-1920.webp",
+      "grok/depannages-ouverture-mobile-640.webp",
+      "grok/depannages-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/depannages-ouverture-640.webp": 13716,
+      "grok/depannages-ouverture-1280.webp": 29982,
+      "grok/depannages-ouverture-1920.webp": 48914,
+      "grok/depannages-ouverture-mobile-640.webp": 24524,
+      "grok/depannages-ouverture-mobile-1080.webp": 46126
+    },
+    "media": "c.media({ nom: 'grok/depannages-ouverture', alt: \"Pièces de menuiserie alignées sur un établi : poignées, roulettes, crémone\", cadrage: '62% 62%', cadrageMobile: '46% 52%', sizes: '100vw', priorite: true })"
+  },
+  "grok/reparer-ouverture": {
+    "nom": "grok/reparer-ouverture",
+    "source": "recu/grok/reparer-ouverture.png",
+    "role": "ouverture",
+    "alt": "Fenêtre blanche ouverte dans un mur de briques",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "15c80f8e57e3569e",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 60%"
+    },
+    "cadrage": "50% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.2,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1625,
+      "source": [
+        1300,
+        1625
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,48 fois (source de 1300 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/reparer-ouverture-640.webp",
+      "grok/reparer-ouverture-1280.webp",
+      "grok/reparer-ouverture-1920.webp",
+      "grok/reparer-ouverture-mobile-640.webp",
+      "grok/reparer-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/reparer-ouverture-640.webp": 31076,
+      "grok/reparer-ouverture-1280.webp": 70174,
+      "grok/reparer-ouverture-1920.webp": 115572,
+      "grok/reparer-ouverture-mobile-640.webp": 31076,
+      "grok/reparer-ouverture-mobile-1080.webp": 57744
+    },
+    "media": "c.media({ nom: 'grok/reparer-ouverture', alt: \"Fenêtre blanche ouverte dans un mur de briques\", cadrage: '50% 60%', cadrageMobile: '50% 60%', sizes: '100vw', priorite: true })"
+  },
+  "grok/reparer-jardin": {
+    "nom": "grok/reparer-jardin",
+    "source": "recu/grok/reparer-jardin.png",
+    "role": "section-fond",
+    "alt": "Baie coulissante grande ouverte sur un jardin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "8f15031f7962612f",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "55% 55%",
+    "sujet": {
+      "x": 6.3,
+      "y": 0,
+      "l": 93.7,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/reparer-jardin-640.webp",
+      "grok/reparer-jardin-1280.webp",
+      "grok/reparer-jardin-1920.webp"
+    ],
+    "poids": {
+      "grok/reparer-jardin-640.webp": 61980,
+      "grok/reparer-jardin-1280.webp": 164434,
+      "grok/reparer-jardin-1920.webp": 258232
+    },
+    "media": "c.media({ nom: 'grok/reparer-jardin', alt: \"Baie coulissante grande ouverte sur un jardin\", cadrage: '55% 55%', sizes: '100vw' })"
+  }
+}

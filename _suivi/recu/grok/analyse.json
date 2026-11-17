@@ -1,0 +1,636 @@
+{
+  "dossier": "/home/claude/work/magik-fenetre-maquette/_suivi/recu/grok",
+  "date": "2026-11-17T13:06:54.561Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "accueil-ouverture.png",
+      "nom": "accueil-ouverture",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 1625,
+      "ratio": "4:5",
+      "ratio_valeur": 0.8,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 4509775,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 25,
+        "l": 88.5,
+        "h": 71.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        57
+      ],
+      "cadrage_css": "50% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "gauche",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.81
+        }
+      ],
+      "qualite": {
+        "nettete": 56.8,
+        "bruit": 1.37,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f8f03c363333ccd8",
+      "drapeaux": []
+    },
+    {
+      "fichier": "depannages-ouverture-mobile.png",
+      "nom": "depannages-ouverture-mobile",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 1625,
+      "ratio": "4:5",
+      "ratio_valeur": 0.8,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 2692197,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.2,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        52
+      ],
+      "cadrage_css": "46% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.35,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 4.9,
+        "bruit": 0.21,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "floue"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "ffcfb0b861039b4f",
+      "drapeaux": [
+        "floue"
+      ]
+    },
+    {
+      "fichier": "depannages-ouverture.png",
+      "nom": "depannages-ouverture",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 900,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1631337,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 90.6,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        60
+      ],
+      "cadrage_css": "40% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 8.7,
+        "bruit": 0.29,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "cdc6e6fdb2b175e5",
+      "drapeaux": []
+    },
+    {
+      "fichier": "facade-mobile.png",
+      "nom": "facade-mobile",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 2311,
+      "ratio": "9:16",
+      "ratio_valeur": 0.563,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 6595476,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 94.4,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        47
+      ],
+      "cadrage_css": "45% 47%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 16.2,
+        "bruit": 0.3,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "7df9d9c9cbcaf000",
+      "drapeaux": []
+    },
+    {
+      "fichier": "facade.png",
+      "nom": "facade",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 900,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 3560443,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 93.8,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        59
+      ],
+      "cadrage_css": "50% 59%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 15.9,
+        "bruit": 0.48,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "3f45767676767476",
+      "drapeaux": []
+    },
+    {
+      "fichier": "panne-cremone.png",
+      "nom": "panne-cremone",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 1950,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 2358401,
+      "transparence": false,
+      "sujet": {
+        "x": 4.5,
+        "y": 0,
+        "l": 90.9,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        54
+      ],
+      "cadrage_css": "46% 54%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 9.4,
+        "bruit": 0.15,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "ecec6c6ccccc4cee",
+      "drapeaux": []
+    },
+    {
+      "fichier": "panne-poignee.png",
+      "nom": "panne-poignee",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 1950,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 2274750,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        53
+      ],
+      "cadrage_css": "41% 53%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 7.1,
+        "bruit": 0.13,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "6978585c587a7070",
+      "drapeaux": []
+    },
+    {
+      "fichier": "panne-roulettes.png",
+      "nom": "panne-roulettes",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 1950,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 2407814,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        54
+      ],
+      "cadrage_css": "41% 54%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 8,
+        "bruit": 0.14,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "9e9e9e1dcc0c6d6e",
+      "drapeaux": []
+    },
+    {
+      "fichier": "reparer-jardin.png",
+      "nom": "reparer-jardin",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 900,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 3647423,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 0,
+        "l": 93.8,
+        "h": 94.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        51
+      ],
+      "cadrage_css": "61% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 46.8,
+        "bruit": 1.1,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "2c3c3c3223231333",
+      "drapeaux": []
+    },
+    {
+      "fichier": "reparer-ouverture.png",
+      "nom": "reparer-ouverture",
+      "drapeau": null,
+      "largeur": 1300,
+      "hauteur": 1625,
+      "ratio": "4:5",
+      "ratio_valeur": 0.8,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 3254449,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.2,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        54
+      ],
+      "cadrage_css": "48% 54%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 6.4,
+        "bruit": 0.24,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "cececacacaf8f8f3",
+      "drapeaux": []
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "cle": "roulettes",
+    "titre": "Roulettes de baie vitrée",
+    "court": "Roulettes",
+    "materiau": "baies vitrées",
+    "symptome": "Votre baie frotte, accroche ou ne glisse plus.",
+    "cause": "Les roulettes du bas, sur lesquelles le vantail glisse, sont usées ou cassées.",
+    "action": "Remplacement des roulettes, sur toute baie vitrée.",
+    "symptomes": [
+      "La baie frotte ou grince sur son rail",
+      "Elle accroche, ou sort du rail",
+      "Il faut forcer pour l'ouvrir"
+    ],
+    "image": "grok/panne-roulettes",
+    "alt": "Bas d'une baie coulissante posée sur son rail",
+    "bouton": "Demander pour ma baie",
+    "cadrage": "40% 72%",
+    "cadrageMobile": "35% 82%"
+  },
+  {
+    "cle": "cremone",
+    "titre": "Crémone",
+    "court": "Crémone",
+    "materiau": "PVC et aluminium",
+    "symptome": "La fenêtre ferme mal, ou la poignée tourne sans verrouiller.",
+    "cause": "La crémone, la tige de verrouillage cachée dans l'ouvrant, est usée ou cassée.",
+    "action": "Remplacement de crémone, en PVC comme en aluminium.",
+    "symptomes": [
+      "La fenêtre ferme mal",
+      "La poignée tourne sans verrouiller",
+      "La fenêtre reste bloquée"
+    ],
+    "image": "grok/panne-cremone",
+    "alt": "Chant d'une fenêtre PVC ouverte, avec sa crémone",
+    "bouton": "Demander pour ma fenêtre",
+    "cadrage": "58% 45%",
+    "cadrageMobile": "58% 40%"
+  },
+  {
+    "cle": "poignee",
+    "titre": "Poignée",
+    "court": "Poignée",
+    "materiau": "toutes menuiseries",
+    "symptome": "La poignée est cassée, branlante ou bloquée.",
+    "cause": "La poignée elle-même est en cause : on la change sans toucher au reste.",
+    "action": "Remplacement de poignée.",
+    "symptomes": [
+      "La poignée est cassée",
+      "Elle branle ou ne tient plus",
+      "Elle force ou se bloque"
+    ],
+    "image": "grok/panne-poignee",
+    "alt": "Poignée blanche d'une fenêtre PVC",
+    "bouton": "Demander pour ma poignée",
+    "cadrage": "57% 35%",
+    "cadrageMobile": "57% 32%"
+  }
+]

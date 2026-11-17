@@ -1,0 +1,9 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Magik Fenêtre",
+  "url": "https://magik-fenetre-maquette.vercel.app/",
+  "telephone": "+33627585806",
+  "areaServed": { "@type": "AdministrativeArea", "name": "Hauts-de-France" },
+  "description": "Spécialiste dans la réparation de menuiseries : remplacement de crémones PVC et aluminium, de roulettes de baies vitrées et de poignées, dépannage toutes menuiseries."
+}

@@ -1,0 +1,267 @@
+{
+  "date": "2026-11-17T13:03:40.690Z",
+  "plan": "/home/claude/work/magik-fenetre-maquette/_suivi/plan-images.json",
+  "attendus": 10,
+  "recus": 10,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [
+    {
+      "fichier": "accueil-ouverture.png",
+      "problemes": [
+        "ratio 0.8 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "Interior view of a bright living room looking straight through a large two-panel sliding glass patio door with slim white frames, one panel slid half open, a small tidy garden behind with a lawn and a red-brick garden wall, light oak floor in the foreground, a linen curtain at the edge of the frame, nobody, everything clean and in perfect working order, ordinary family house of northern France, nothing luxurious, nothing like a showroom or a villa. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "facade.png",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "Front view of the facade of an ordinary red-brick terraced house of northern France, white windows with slim frames, one window slightly open, a sliding glass door at ground level, a small front garden with a low hedge, quiet residential street, everything tidy, nothing luxurious. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "facade-mobile.png",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "Front view of the facade of an ordinary red-brick terraced house of northern France, white windows with slim frames, one window slightly open, a sliding glass door at ground level, a small front garden with a low hedge, quiet residential street, everything tidy, nothing luxurious. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "depannages-ouverture.png",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "Top view flat lay on a light oak workbench of neatly aligned window hardware: three plain white window handles, two small grey sliding door roller units, one long flat metal window locking bar, a few screws in a small row and a screwdriver, generous empty space, soft even light, no hands, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. The assembly shown complete and mechanically accurate, every part mounted exactly as on a real working machine, nothing floating or held loose by hand; or the parts lying still on the bench, not assembled. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "depannages-ouverture-mobile.png",
+      "problemes": [
+        "ratio 0.8 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "Top view flat lay on a light oak workbench of neatly aligned window hardware: three plain white window handles, two small grey sliding door roller units, one long flat metal window locking bar, a few screws in a small row and a screwdriver, generous empty space, soft even light, no hands, nobody. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. The assembly shown complete and mechanically accurate, every part mounted exactly as on a real working machine, nothing floating or held loose by hand; or the parts lying still on the bench, not assembled. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "reparer-ouverture.png",
+      "problemes": [
+        "ratio 0.8 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "A white casement window set in a red-brick wall, seen from inside a warm kitchen, window open wide onto a small garden, a potted herb on the windowsill, well-kept and clean, soft side light, nobody, ordinary family house of northern France. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "reparer-jardin.png",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A large sliding glass door wide open from a living room onto a green garden, a light curtain moving in the breeze, calm afternoon, view from inside, nobody, ordinary family house of northern France. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ],
+  "images": [
+    {
+      "nom": "grok/accueil-ouverture",
+      "attendu": "accueil-ouverture.png",
+      "fichier": "accueil-ouverture.png",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.8 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1000,
+      "hauteur": 1250,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Interior view of a bright living room looking straight through a large two-panel sliding glass patio door with slim white frames, one panel slid half open, a small tidy garden behind with a lawn and a red-brick garden wall, light oak floor in the foreground, a linen curtain at the edge of the frame, nobody, everything clean and in perfect working order, ordinary family house of northern France, nothing luxurious, nothing like a showroom or a villa. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/panne-roulettes",
+      "attendu": "panne-roulettes.png",
+      "fichier": "panne-roulettes.png",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1176,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/panne-cremone",
+      "attendu": "panne-cremone.png",
+      "fichier": "panne-cremone.png",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1176,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/panne-poignee",
+      "attendu": "panne-poignee.png",
+      "fichier": "panne-poignee.png",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1176,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/facade",
+      "attendu": "facade.png",
+      "fichier": "facade.png",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 657,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Front view of the facade of an ordinary red-brick terraced house of northern France, white windows with slim frames, one window slightly open, a sliding glass door at ground level, a small front garden with a low hedge, quiet residential street, everything tidy, nothing luxurious. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/facade",
+      "mobile": true,
+      "attendu": "facade-mobile.png",
+      "fichier": "facade-mobile.png",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 720,
+      "hauteur": 1280,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Front view of the facade of an ordinary red-brick terraced house of northern France, white windows with slim frames, one window slightly open, a sliding glass door at ground level, a small front garden with a low hedge, quiet residential street, everything tidy, nothing luxurious. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/depannages-ouverture",
+      "attendu": "depannages-ouverture.png",
+      "fichier": "depannages-ouverture.png",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 657,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Top view flat lay on a light oak workbench of neatly aligned window hardware: three plain white window handles, two small grey sliding door roller units, one long flat metal window locking bar, a few screws in a small row and a screwdriver, generous empty space, soft even light, no hands, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. The assembly shown complete and mechanically accurate, every part mounted exactly as on a real working machine, nothing floating or held loose by hand; or the parts lying still on the bench, not assembled. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/depannages-ouverture",
+      "mobile": true,
+      "attendu": "depannages-ouverture-mobile.png",
+      "fichier": "depannages-ouverture-mobile.png",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.8 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 980,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Top view flat lay on a light oak workbench of neatly aligned window hardware: three plain white window handles, two small grey sliding door roller units, one long flat metal window locking bar, a few screws in a small row and a screwdriver, generous empty space, soft even light, no hands, nobody. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. The assembly shown complete and mechanically accurate, every part mounted exactly as on a real working machine, nothing floating or held loose by hand; or the parts lying still on the bench, not assembled. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/reparer-ouverture",
+      "attendu": "reparer-ouverture.png",
+      "fichier": "reparer-ouverture.png",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.8 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 980,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A white casement window set in a red-brick wall, seen from inside a warm kitchen, window open wide onto a small garden, a potted herb on the windowsill, well-kept and clean, soft side light, nobody, ordinary family house of northern France. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/reparer-jardin",
+      "attendu": "reparer-jardin.png",
+      "fichier": "reparer-jardin.png",
+      "priorite": "Conseillée",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 657,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A large sliding glass door wide open from a living room onto a green garden, a light curtain moving in the breeze, calm afternoon, view from inside, nobody, ordinary family house of northern France. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of warm off-white, crisp white window frames, soft red brick, deep navy blue accents and fresh garden green, soft natural daylight from the side, slightly overcast northern sky, tactile white PVC and brushed aluminium window frames, clear glass, red brick and light oak, set in an ordinary family house of northern France, red brick, nothing luxurious, nothing like a showroom on a bright late-autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ]
+}

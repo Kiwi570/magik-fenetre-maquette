@@ -1,0 +1,17 @@
+{
+ "id": "20261117-140135-standard-partiel",
+ "date": "2026-11-17T14:05:50.807Z",
+ "niveau": "standard",
+ "pages": "toutes",
+ "etapes": [
+  "films",
+  "mouvement",
+  "ecran"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 1,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

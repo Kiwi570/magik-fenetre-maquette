@@ -1,0 +1,20 @@
+{
+  "types": [
+    "Fenêtres",
+    "Portes-fenêtres",
+    "Baies coulissantes",
+    "PVC",
+    "Aluminium"
+  ],
+  "garde": [
+    "Le dormant, le cadre fixé au mur",
+    "L'ouvrant, la partie qui s'ouvre",
+    "Le vitrage",
+    "La pose et les finitions autour"
+  ],
+  "change": [
+    "La crémone usée",
+    "Les roulettes fatiguées",
+    "La poignée cassée"
+  ]
+}

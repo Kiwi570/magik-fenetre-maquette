@@ -1,0 +1,172 @@
+[
+ {
+  "source": "recu/magik-fenetre-recu/alex-copie-3.png",
+  "nom": "mascotte",
+  "role": "logo",
+  "alt": "La mascotte Magik Fenêtre, pouce levé",
+  "beaute": 4
+ },
+ {
+  "source": "recu/magik-fenetre-recu/magik-fenetre.jpg",
+  "nom": "intervention",
+  "role": "vignette",
+  "ratio": "3:4",
+  "alt": "Baie coulissante à châssis ton bois, vue de l'intérieur sur un jardin, après une intervention Magik Fenêtre",
+  "cadrage": [
+   50,
+   55
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/grok/accueil-ouverture.jpg",
+  "nom": "grok/accueil-ouverture",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "mobile": "4:5",
+  "zone_texte": "haut",
+  "page": "Accueil",
+  "emplacement": "ouverture, grande photo à droite du titre",
+  "priorite": "Indispensable",
+  "gabarit": "lieu",
+  "consigne_scene": "Interior view of a bright living room looking straight through a large two-panel sliding glass patio door with slim white frames, one panel slid half open, a small tidy garden behind with a lawn and a red-brick garden wall, light oak floor in the foreground, a linen curtain at the edge of the frame, nobody, everything clean and in perfect working order, ordinary family house of northern France, nothing luxurious, nothing like a showroom or a villa",
+  "alt": "Grande baie coulissante entrouverte sur un jardin",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   58
+  ]
+ },
+ {
+  "source": "recu/grok/panne-roulettes.jpg",
+  "nom": "grok/panne-roulettes",
+  "role": "carte-service",
+  "page": "Accueil",
+  "emplacement": "carte Roulettes de baie vitrée",
+  "priorite": "Indispensable",
+  "consigne_scene": "Extreme close-up at floor level of the bottom of a large sliding glass door: the lower edge of the white aluminium sash rests on a clean metal track, one small grey nylon roller wheel visible through the open end of the sash, light oak floor, soft side light, shallow depth of field, no hands, no tools, nobody",
+  "alt": "Bas d'une baie coulissante posée sur son rail",
+  "beaute": 4,
+  "pieges": [
+   "mécanismes"
+  ],
+  "cadrage": [
+   40,
+   72
+  ]
+ },
+ {
+  "source": "recu/grok/panne-cremone.jpg",
+  "nom": "grok/panne-cremone",
+  "role": "carte-service",
+  "page": "Accueil",
+  "emplacement": "carte Crémones",
+  "priorite": "Indispensable",
+  "consigne_scene": "Close-up of the edge of an open white PVC casement window, seen from the side: the long flat metal locking bar runs along the edge of the opening sash with two small round locking cams, neat and clean, a glimpse of garden out of focus behind, soft daylight, no hands, nobody",
+  "alt": "Chant d'une fenêtre PVC ouverte avec sa crémone",
+  "beaute": 4,
+  "pieges": [
+   "mécanismes"
+  ],
+  "cadrage": [
+   58,
+   45
+  ]
+ },
+ {
+  "source": "recu/grok/panne-poignee.jpg",
+  "nom": "grok/panne-poignee",
+  "role": "carte-service",
+  "page": "Accueil",
+  "emplacement": "carte Poignées",
+  "priorite": "Indispensable",
+  "consigne_scene": "Close-up of a simple white window handle in the closed downward position on a white PVC window frame, red brick wall and a little garden blurred behind the glass, soft morning light, minimal and clean, no hands, nobody",
+  "alt": "Poignée blanche d'une fenêtre PVC",
+  "beaute": 4,
+  "pieges": [
+   "mécanismes"
+  ],
+  "cadrage": [
+   57,
+   35
+  ]
+ },
+ {
+  "source": "recu/grok/facade.jpg",
+  "source_mobile": "recu/grok/facade-mobile.jpg",
+  "nom": "grok/facade",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "zone_texte": "haut",
+  "page": "Accueil",
+  "emplacement": "image qui s'ouvre en plein écran (« On garde la fenêtre »)",
+  "priorite": "Indispensable",
+  "consigne_scene": "Front view of the facade of an ordinary red-brick terraced house of northern France, white windows with slim frames, one window slightly open, a sliding glass door at ground level, a small front garden with a low hedge, quiet residential street, everything tidy, nothing luxurious",
+  "alt": "Façade d'une maison de briques aux fenêtres blanches",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/grok/depannages-ouverture.jpg",
+  "source_mobile": "recu/grok/depannages-ouverture-mobile.jpg",
+  "nom": "grok/depannages-ouverture",
+  "role": "ouverture",
+  "ratio": "16:9",
+  "mobile": "4:5",
+  "zone_texte": false,
+  "page": "Dépannages",
+  "emplacement": "bandeau sous le grand titre",
+  "priorite": "Indispensable",
+  "gabarit": "texture",
+  "consigne_scene": "Top view flat lay on a light oak workbench of neatly aligned window hardware: three plain white window handles, two small grey sliding door roller units, one long flat metal window locking bar, a few screws in a small row and a screwdriver, generous empty space, soft even light, no hands, nobody",
+  "alt": "Pièces de menuiserie alignées sur un établi : poignées, roulettes, crémone",
+  "beaute": 4,
+  "pieges": [
+   "mécanismes"
+  ],
+  "cadrage": [
+   62,
+   62
+  ]
+ },
+ {
+  "source": "recu/grok/reparer-ouverture.jpg",
+  "nom": "grok/reparer-ouverture",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "mobile": "4:5",
+  "zone_texte": false,
+  "page": "Réparer plutôt que remplacer",
+  "emplacement": "photo à côté du grand titre",
+  "priorite": "Indispensable",
+  "gabarit": "lieu",
+  "consigne_scene": "A white casement window set in a red-brick wall, seen from inside a warm kitchen, window open wide onto a small garden, a potted herb on the windowsill, well-kept and clean, soft side light, nobody, ordinary family house of northern France",
+  "alt": "Fenêtre blanche ouverte dans un mur de briques",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   60
+  ]
+ },
+ {
+  "source": "recu/grok/reparer-jardin.jpg",
+  "nom": "grok/reparer-jardin",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "zone_texte": "gauche",
+  "page": "Réparer plutôt que remplacer",
+  "emplacement": "bandeau « La fenêtre reste en place »",
+  "priorite": "Conseillée",
+  "consigne_scene": "A large sliding glass door wide open from a living room onto a green garden, a light curtain moving in the breeze, calm afternoon, view from inside, nobody, ordinary family house of northern France",
+  "alt": "Baie coulissante grande ouverte sur un jardin",
+  "beaute": 4,
+  "cadrage": [
+   55,
+   55
+  ]
+ }
+]

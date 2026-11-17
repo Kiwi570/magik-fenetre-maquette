@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page introuvable · Magik Fenêtre</title>
+<meta name="description" content="Cette page n&#39;existe pas ou plus.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://magik-fenetre-maquette.vercel.app/404">
+<style>:root{--fond:#f5f2eb;--texte:#141b2b;--voile-fond:#dbe4eb;--ouverture-fond:#dbe4eb;--menu-fond:#16294a}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f5f2eb">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Magik Fenêtre">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Page introuvable · Magik Fenêtre">
+<meta property="og:description" content="Cette page n&#39;existe pas ou plus.">
+<meta property="og:url" content="https://magik-fenetre-maquette.vercel.app/404">
+<meta property="og:image" content="https://magik-fenetre-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Magik Fenêtre, réparation de menuiseries : une baie coulissante entrouverte sur un jardin">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Magik Fenêtre","url":"https://magik-fenetre-maquette.vercel.app/","telephone":"+33627585806","areaServed":{"@type":"AdministrativeArea","name":"Hauts-de-France"},"description":"Spécialiste dans la réparation de menuiseries : remplacement de crémones PVC et aluminium, de roulettes de baies vitrées et de poignées, dépannage toutes menuiseries."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="coulisse" data-gouttiere="#dbe4eb" aria-hidden="true"><div class="vantail vantail--g"><span class="vantail-reflet"></span></div><div class="vantail vantail--d"><span class="vantail-poignee"></span><span class="vantail-reflet"></span></div><div class="voile-contenu"><img src="/assets/images/logo.svg" alt="" width="56" height="56"><span data-voile-libelle>Page introuvable</span></div></div>
+<div class="ouverture-panneau" data-ouverture data-gouttiere="#dbe4eb" aria-hidden="true">
+  <div class="vantail vantail--g"><span class="vantail-reflet"></span></div><div class="vantail vantail--d"><span class="vantail-poignee"></span><span class="vantail-reflet"></span></div>
+  <div class="ouverture-centre">
+    <img class="ouverture-logo" src="/assets/images/logo.svg" alt="" width="64" height="64" data-ouverture-objet>
+    <p class="ouverture-nom">Magik <b>Fenêtre</b></p>
+    <p class="ouverture-ligne">Réparation de menuiseries</p>
+  </div>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="36" height="36"><span class="entete-nom">Magik <b>Fenêtre</b></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/depannages" data-libelle="Dépannages">Dépannages</a></li><li><a href="/reparer-plutot-que-remplacer" data-libelle="Réparer ou remplacer">Réparer ou remplacer</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton entete-tel" href="tel:+33627585806" aria-label="Appeler le 06 27 58 58 06"><svg class="icone-tel" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><span>06 27 58 58 06</span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/depannages" class="menu-lien" data-libelle="Dépannages">Dépannages</a></li><li style="--i:2"><a href="/reparer-plutot-que-remplacer" class="menu-lien" data-libelle="Réparer ou remplacer">Réparer ou remplacer</a></li><li style="--i:3"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33627585806">Appeler 06 27 58 58 06</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="introuvable" id="debut">
+  <div class="conteneur introuvable-grille">
+    <div>
+      <p class="introuvable-code" aria-hidden="true">404</p>
+      <h1 class="introuvable-titre"><span class="hero-ligne-masque"><span class="hero-ligne">Cette page</span></span> <span class="hero-ligne-masque"><span class="hero-ligne hero-ligne--accent">est coincée.</span></span></h1>
+      <p data-anime="gsap" class="introuvable-texte">Elle n&#39;existe pas ou plus. Le reste du site, lui, s&#39;ouvre très bien.</p>
+      <p data-anime="gsap" data-info-cle><a href="/" class="bouton" data-libelle="Accueil" data-action-principale>Retour à l&#39;accueil</a></p>
+    </div>
+    <figure class="introuvable-mascotte" data-iris-centre data-effet="mascotte">
+      <img src="/assets/images/mascotte-480.webp" srcset="/assets/images/mascotte-240.webp 240w, /assets/images/mascotte-480.webp 480w" sizes="(max-width: 760px) 60vw, 380px" width="480" height="549" alt="La mascotte Magik Fenêtre, pouce levé" fetchpriority="high" loading="eager" decoding="async">
+    </figure>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-nom"><img src="/assets/images/logo.svg" alt="" width="40" height="40"><span>Magik <b>Fenêtre</b></span></p>
+      <p>Spécialiste dans la réparation de menuiseries<br>Hauts-de-France</p>
+      <p><a class="pied-tel" href="tel:+33627585806">06 27 58 58 06</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/depannages" data-libelle="Dépannages">Dépannages</a></li><li><a href="/reparer-plutot-que-remplacer" data-libelle="Réparer ou remplacer">Réparer ou remplacer</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Le site</strong></p>
+      <ul>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+        <li class="pied-legal">Mentions légales : à compléter</li>
+        <li class="pied-legal">Politique de confidentialité : à compléter</li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de présentation : les formulaires sont simulés, rien n&#39;est envoyé.</p><p>© Magik Fenêtre</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton" href="tel:+33627585806"><svg class="icone-tel" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Appeler</a>
+  <a class="bouton bouton--contour" href="/contact#demande" data-libelle="Contact">Décrire ma panne</a>
+</div>
+</body>
+</html>

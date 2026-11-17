@@ -1,0 +1,252 @@
+{
+ "explication": "Maquettes favorites de l'utilisateur : le niveau et le style visés, sur l'accueil ET les pages intérieures. Jamais à copier (ni leur idée, ni leur mise en page) : même harmonie, même fluidité, même soin.",
+ "activite": [
+  "bâtiment"
+ ],
+ "metier": "réparation dépannage fenêtres menuiseries",
+ "besoin": [],
+ "ton": [
+  "chaleureux"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "magik-fenetre-maquette",
+ "favorites_dans_la_bibliotheque": 19,
+ "favorites": [
+  {
+   "rang": 1,
+   "maquette": "depannage-60-maquette",
+   "client": "dépannage plomberie et électricité, rénovation, autour de Longueil-Sainte-Marie (Oise)",
+   "metier": "plombier électricien dépanneur",
+   "pourquoi": "Plombier électricien dépanneur : eau en bleu et électricité en jaune, un tuyau et un câble qui courent dans la marge",
+   "proche": [
+    "même métier"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 87,
+   "en_ligne": "https://depannage-60-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "depannage-60-maquette/debut",
+     "note_section": 5,
+     "titre": "Fuite, panne, WC bouché ? On s’en occupe.",
+     "capture": "medias/depannage-60-maquette/debut-p1440.jpg",
+     "video": "medias/depannage-60-maquette/debut-p720.mp4",
+     "fiche": "sections/depannage-60-maquette/debut.json",
+     "en_ligne": "https://depannage-60-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "outil-interactif",
+     "id": "depannage-60-maquette/probleme",
+     "note_section": 5,
+     "titre": "Rallumez la lumière sur votre panne.",
+     "capture": "medias/depannage-60-maquette/probleme-p1440.jpg",
+     "video": "medias/depannage-60-maquette/probleme-p720.mp4",
+     "fiche": "sections/depannage-60-maquette/probleme.json",
+     "en_ligne": "https://depannage-60-maquette.vercel.app"
+    },
+    {
+     "page": "prestations",
+     "role": "ouverture",
+     "id": "depannage-60-maquette/prestations-tarifs",
+     "note_section": 4,
+     "titre": "69 prestations,tarifs en clair.",
+     "capture": "medias/depannage-60-maquette/prestations-tarifs-p1440.jpg",
+     "video": null,
+     "fiche": "sections/depannage-60-maquette/prestations-tarifs.json",
+     "en_ligne": "https://depannage-60-maquette.vercel.app/prestations"
+    },
+    {
+     "page": "decrivez-votre-besoin",
+     "role": "outil-interactif",
+     "id": "depannage-60-maquette/decrivez-votre-besoin-questionnaire",
+     "note_section": 5,
+     "titre": "Qu’est-ce qui ne va pas ?",
+     "capture": "medias/depannage-60-maquette/decrivez-votre-besoin-questionnaire-p1440.jpg",
+     "video": "medias/depannage-60-maquette/decrivez-votre-besoin-questionnaire-p720.mp4",
+     "fiche": "sections/depannage-60-maquette/decrivez-votre-besoin-questionnaire.json",
+     "en_ligne": "https://depannage-60-maquette.vercel.app/decrivez-votre-besoin"
+    }
+   ]
+  },
+  {
+   "rang": 2,
+   "maquette": "skapelys-maquette",
+   "client": "agence web indépendante à Bourg-en-Bresse : création, refonte, référencement, maintenance et dépannage de sites WordPress pour artisans et commerçants",
+   "metier": "agence web",
+   "pourquoi": "Agence web : « Chantier numérique » : plan bleu de chantier, grille WebGL qui se déforme, jaune signal ; le site du client se construit sous un viseur de chantier",
+   "proche": [
+    "même métier"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 80,
+   "en_ligne": "https://skapelys-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "skapelys-maquette/ouverture",
+     "note_section": 3,
+     "titre": "Agence web à Bourg-en-Bresse",
+     "capture": "medias/skapelys-maquette/ouverture-p1440.jpg",
+     "video": null,
+     "fiche": "sections/skapelys-maquette/ouverture.json",
+     "en_ligne": "https://skapelys-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "étapes",
+     "id": "skapelys-maquette/methode",
+     "note_section": 3,
+     "titre": "Comment se passe votre projet ?",
+     "capture": "medias/skapelys-maquette/methode-p1440.jpg",
+     "video": null,
+     "fiche": "sections/skapelys-maquette/methode.json",
+     "en_ligne": "https://skapelys-maquette.vercel.app"
+    },
+    {
+     "page": "creation-site-web-bourg-en-bresse",
+     "role": "ouverture",
+     "id": "skapelys-maquette/creation-site-web-bourg-en-bresse-ouverture",
+     "note_section": 3,
+     "titre": "Création de site internet à Bourg-en-Bresse",
+     "capture": "medias/skapelys-maquette/creation-site-web-bourg-en-bresse-ouverture-p1440.jpg",
+     "video": null,
+     "fiche": "sections/skapelys-maquette/creation-site-web-bourg-en-bresse-ouverture.json",
+     "en_ligne": "https://skapelys-maquette.vercel.app/creation-site-web-bourg-en-bresse"
+    },
+    {
+     "page": "refonte-site-internet-bourg-en-bresse",
+     "role": "outil-interactif",
+     "id": "skapelys-maquette/refonte-site-internet-bourg-en-bresse-avant-apres",
+     "note_section": 4,
+     "titre": "Site vieillissant : ce que la refonte change.",
+     "capture": "medias/skapelys-maquette/refonte-site-internet-bourg-en-bresse-avant-apres-p1440.jpg",
+     "video": null,
+     "fiche": "sections/skapelys-maquette/refonte-site-internet-bourg-en-bresse-avant-apres.json",
+     "en_ligne": "https://skapelys-maquette.vercel.app/refonte-site-internet-bourg-en-bresse"
+    }
+   ]
+  },
+  {
+   "rang": 3,
+   "maquette": "pierre-becq-lanterne-maquette",
+   "client": "antiquaire à Metz (mobilier et objets d'art du XVIe au XXe siècle, expertise, achat de successions)",
+   "metier": "antiquaire",
+   "pourquoi": "Antiquaire : flamme de bougie qui éclaire une boiserie laquée en WebGL, nom à la feuille d'or",
+   "proche": [
+    "ambiance chaleureux"
+   ],
+   "lumiere": "sombre",
+   "note_maquette": 89,
+   "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "pierre-becq-lanterne-maquette/haut",
+     "note_section": 5,
+     "titre": "Flamme sur la boiserie",
+     "capture": "medias/pierre-becq-lanterne-maquette/haut-p1440.jpg",
+     "video": "medias/pierre-becq-lanterne-maquette/haut-p720.mp4",
+     "fiche": "sections/pierre-becq-lanterne-maquette/haut.json",
+     "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "produits",
+     "id": "pierre-becq-lanterne-maquette/coups-de-coeur",
+     "note_section": 5,
+     "titre": "Salle des coups de cœur",
+     "capture": "medias/pierre-becq-lanterne-maquette/coups-de-coeur-p1440.jpg",
+     "video": "medias/pierre-becq-lanterne-maquette/coups-de-coeur-p720.mp4",
+     "fiche": "sections/pierre-becq-lanterne-maquette/coups-de-coeur.json",
+     "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app"
+    },
+    {
+     "page": "expertise",
+     "role": "ouverture",
+     "id": "pierre-becq-lanterne-maquette/expertise-entree",
+     "note_section": 4,
+     "titre": "Loupe d'expert sur le bureau",
+     "capture": "medias/pierre-becq-lanterne-maquette/expertise-entree-p1440.jpg",
+     "video": "medias/pierre-becq-lanterne-maquette/expertise-entree-p720.mp4",
+     "fiche": "sections/pierre-becq-lanterne-maquette/expertise-entree.json",
+     "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app/expertise"
+    },
+    {
+     "page": "galerie",
+     "role": "produits",
+     "id": "pierre-becq-lanterne-maquette/galerie-galerie-bloc",
+     "note_section": 4,
+     "titre": "Vitrine filtrable",
+     "capture": "medias/pierre-becq-lanterne-maquette/galerie-galerie-bloc-p1440.jpg",
+     "video": "medias/pierre-becq-lanterne-maquette/galerie-galerie-bloc-p720.mp4",
+     "fiche": "sections/pierre-becq-lanterne-maquette/galerie-galerie-bloc.json",
+     "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app/galerie"
+    }
+   ]
+  },
+  {
+   "rang": 4,
+   "maquette": "nolanis-maquette",
+   "client": "Agence de communication visuelle à Strasbourg : print et web, espaces publicitaires, publipostage, photo et vidéo, objets publicitaires, sauvegarde en ligne, formation photo",
+   "metier": "agence de communication visuelle",
+   "pourquoi": "Agence de communication visuelle : direction « Bon à tirer » tirée de l'imprimerie : traits de coupe, repère de calage, barre de contrôle des encres, quatre passages quadri",
+   "proche": [],
+   "lumiere": "clair",
+   "note_maquette": 86,
+   "en_ligne": "https://nolanis-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "nolanis-maquette/debut",
+     "note_section": 5,
+     "titre": "Votre agence de communication visuelle à Strasbourg",
+     "capture": "medias/nolanis-maquette/debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "services",
+     "id": "nolanis-maquette/services",
+     "note_section": 4,
+     "titre": "La liasse des épreuves",
+     "capture": "medias/nolanis-maquette/services-p1440.jpg",
+     "video": "medias/nolanis-maquette/services-p720.mp4",
+     "fiche": "sections/nolanis-maquette/services.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "formations",
+     "role": "ouverture",
+     "id": "nolanis-maquette/formations-debut",
+     "note_section": 4,
+     "titre": "Choisir l’image juste",
+     "capture": "medias/nolanis-maquette/formations-debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/formations-debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/formations-debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/formations"
+    },
+    {
+     "page": "contact",
+     "role": "outil-interactif",
+     "id": "nolanis-maquette/contact-devis",
+     "note_section": 4,
+     "titre": "Votre demande, en trois étapes",
+     "capture": "medias/nolanis-maquette/contact-devis-p1440.jpg",
+     "video": "medias/nolanis-maquette/contact-devis-p720.mp4",
+     "fiche": "sections/nolanis-maquette/contact-devis.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/contact"
+    }
+   ]
+  }
+ ]
+}

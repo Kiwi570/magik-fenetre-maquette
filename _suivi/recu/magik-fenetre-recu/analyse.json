@@ -1,0 +1,260 @@
+{
+  "dossier": "/Users/paul/Downloads/magik-fenetre-recu",
+  "date": "2026-11-17T12:35:31.339Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "magik-fenetre.jpg",
+      "nom": "magik-fenetre",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 1600,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 253737,
+      "transparence": false,
+      "sujet": {
+        "x": 27.5,
+        "y": 56.5,
+        "l": 53.5,
+        "h": 39.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        66
+      ],
+      "cadrage_css": "50% 66%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 33.9,
+        "bruit": 1.03,
+        "compression": 1.25,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "1391959191939317",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "magik-fenetre-2.jpg",
+      "nom": "magik-fenetre-2",
+      "drapeau": "autre",
+      "largeur": 529,
+      "hauteur": 762,
+      "ratio": "0.69",
+      "ratio_valeur": 0.694,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 22278,
+      "transparence": false,
+      "sujet": {
+        "x": 30.9,
+        "y": 4.4,
+        "l": 36.8,
+        "h": 75,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        41
+      ],
+      "cadrage_css": "48% 41%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "droite",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "haut",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.32
+        }
+      ],
+      "qualite": {
+        "nettete": 72.1,
+        "bruit": 0.14,
+        "compression": 0.96,
+        "faible": true,
+        "raisons": [
+          "529 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Sicherheitsbeschläge · Ersatzteile für Haustüren · Window & door s · Q Click to",
+        "blocs": 4,
+        "surface": 1.8,
+        "details": [
+          {
+            "texte": "Sicherheitsbeschläge",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Ersatzteile für Haustüren",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Window & door s",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Q Click to",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "341498082d251612",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/droite/bas"
+      ]
+    },
+    {
+      "fichier": "alex-copie-3.png",
+      "nom": "alex-copie-3",
+      "drapeau": "autre",
+      "largeur": 500,
+      "hauteur": 572,
+      "ratio": "0.87",
+      "ratio_valeur": 0.874,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 146173,
+      "transparence": true,
+      "sujet": {
+        "x": 23.5,
+        "y": 5.9,
+        "l": 52.9,
+        "h": 58.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        33
+      ],
+      "cadrage_css": "54% 33%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        }
+      ],
+      "qualite": {
+        "nettete": 44,
+        "bruit": 0.27,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "500 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Magik · Fenetre · EPRO",
+        "blocs": 3,
+        "surface": 1.9,
+        "details": [
+          {
+            "texte": "Magik",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Fenetre",
+            "niveau": "marque"
+          },
+          {
+            "texte": "EPRO",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "274f4f8f1f2be7cb",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[
+ {
+  "source": "recu/magik-fenetre-recu/alex-copie-3.png",
+  "nom": "mascotte",
+  "role": "logo",
+  "alt": "La mascotte Magik Fenêtre, pouce levé",
+  "beaute": 4
+ },
+ {
+  "source": "recu/magik-fenetre-recu/magik-fenetre.jpg",
+  "nom": "intervention",
+  "role": "vignette",
+  "ratio": "3:4",
+  "alt": "Baie coulissante à châssis ton bois, vue de l'intérieur sur un jardin, après une intervention Magik Fenêtre",
+  "cadrage": [
+   50,
+   55
+  ],
+  "beaute": 3
+ }
+]

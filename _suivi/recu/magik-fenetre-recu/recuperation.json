@@ -1,0 +1,81 @@
+{
+  "site": "https://www.magik-fenetre.fr/",
+  "date": "2026-11-17T12:35:30.439Z",
+  "pages": [
+    "https://www.magik-fenetre.fr/"
+  ],
+  "images": [
+    {
+      "fichier": "magik-fenetre.jpg",
+      "nom": "magik-fenetre",
+      "origine": "https://www.magik-fenetre.fr/wp-content/uploads/2026/05/IMG-20250226-WA0120-1.jpg",
+      "page": "https://www.magik-fenetre.fr/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "MAGIK FENETRE",
+        "page": "MAGIK FENETRE",
+        "fichier_origine": ""
+      },
+      "largeur": 1200,
+      "hauteur": 1600,
+      "poids": 253737,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "magik-fenetre-2.jpg",
+      "nom": "magik-fenetre-2",
+      "origine": "https://www.magik-fenetre.fr/wp-content/uploads/2026/10/IMG-20250226-WA0113.jpg",
+      "page": "https://www.magik-fenetre.fr/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "MAGIK FENETRE",
+        "page": "MAGIK FENETRE",
+        "fichier_origine": ""
+      },
+      "largeur": 529,
+      "hauteur": 762,
+      "poids": 22278,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "alex-copie-3.png",
+      "nom": "alex-copie-3",
+      "origine": "https://www.magik-fenetre.fr/wp-content/uploads/2026/05/alex-Copie-3.png",
+      "page": "https://www.magik-fenetre.fr/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "MAGIK FENETRE",
+        "page": "MAGIK FENETRE",
+        "fichier_origine": "alex-Copie-3"
+      },
+      "largeur": 500,
+      "hauteur": 572,
+      "poids": 146173,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "autre"
+    }
+  ],
+  "ecartees": [
+    {
+      "url": "https://www.magik-fenetre.fr/wp-content/plugins/cookieadmin-pro//assets/images/re-consent-icons/cookieadmin.svg",
+      "raison": "icone"
+    }
+  ]
+}

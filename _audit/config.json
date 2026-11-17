@@ -1,0 +1,6 @@
+{
+  "siteActuel": "magik-fenetre.fr",
+  "pagesTypes": ["/", "/depannages", "/reparer-plutot-que-remplacer", "/contact"],
+  "effets": ["coulisse", "pieces", "eclate", "diagnostic", "mascotte", "carte", "numero"],
+  "grille": { "dispenses": {} }
+}

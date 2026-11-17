@@ -1,0 +1,15 @@
+{
+  "nom": "Magik Fenêtre",
+  "adresse": "https://magik-fenetre-maquette.vercel.app",
+  "siteActuel": "magik-fenetre.fr",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "depannages", "reparer", "contact"],
+  "actionEntete": { "page": "contact", "ancre": "demande" },
+  "couleurs": { "fond": "#f5f2eb", "texte": "#141b2b", "voile": "#dbe4eb", "ouverture": "#dbe4eb", "menu": "#16294a", "theme": "#f5f2eb" },
+  "formeVoile": "coulisse",
+  "contact": { "telephone": "06 27 58 58 06", "telephoneLien": "+33627585806", "zone": "Hauts-de-France" },
+  "polices": ["/assets/fonts/bricolage-800.woff2", "/assets/fonts/figtree-400.woff2"],
+  "imagePartage": "grok/accueil-ouverture-1280.webp",
+  "curseur": false
+}
