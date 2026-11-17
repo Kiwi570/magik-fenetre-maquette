@@ -2,7 +2,7 @@
 // (SVG, stroke-dashoffset), puis le mot qui le remplace (<ins>) s'écrit à côté, au-dessus ou dessous, et se souligne.
 // Les traits sont calculés en pixels sur les lignes réelles du texte (Range.getClientRects) : ils suivent les retours
 // à la ligne et se recalculent au redimensionnement. Sans JavaScript : barré CSS et mot final visibles.
-import { pret } from './socle.js?v=1';
+import { pret } from './socle.js?v=2';
 
 const NS = 'http://www.w3.org/2000/svg';
 const VARIANTES = 4; // 0 trait ondulé, 1 aller-retour, 2 diagonale, 3 gribouillis

@@ -85,8 +85,13 @@ function entete(c) {
 <span id="menu-ferme" aria-hidden="true"></span>
 <div id="menu" data-menu role="dialog" aria-modal="true" aria-label="${c.s('commun.menu')}">
   <p class="menu-sansjs-fermer"><a href="#menu-ferme">${c.t('commun.fermer')}</a></p>
-  <ul>${navigation(c).map((k, i) => html`<li style="--i:${i}">${c.lien(k, { classe: 'menu-lien' })}</li>`)}</ul>
-  <p><a class="bouton" href="tel:${c.site.contact.telephoneLien}">${c.t('commun.appeler')} ${c.site.contact.telephone}</a></p>
+  <ul class="menu-liste">${navigation(c).map((k, i) => html`<li style="--i:${i}">${c.lien(k, { classe: 'menu-lien' })}</li>`)}</ul>
+  <div class="menu-pied">
+    <p class="menu-surtitre">${c.t('commun.appel.surtitre')}</p>
+    <p class="menu-tel"><a href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a></p>
+    <p class="menu-actions"><a class="bouton" href="tel:${c.site.contact.telephoneLien}">${brut(ICONE_TEL)}${c.t('commun.appeler')}</a> ${c.lien('contact', { ancre: 'demande', classe: 'bouton bouton--clair', texte: c.t('commun.actionEntete') })}</p>
+    <p class="menu-zone">${c.t('commun.slogan')} · ${c.t('commun.zone')}</p>
+  </div>
   ${autreLangue.map((a) => html`<p><a class="entete-langue" href="${a.url}" hreflang="${a.l}" lang="${a.l}" data-langue="${a.l}">${c.s('commun.langueAutre')}</a></p>`)}
 </div>`;
 }

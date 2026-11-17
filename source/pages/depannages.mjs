@@ -24,23 +24,31 @@ export default (c) => html`
   </div>
 </section>
 
-${c.donnees.pannes.map((p, i) => html`<section class="rangee${i % 2 ? ' rangee--inverse' : ''}" id="${p.cle}">
-  <div class="conteneur rangee-grille">
-    <div class="rangee-dessin" data-effet="pieces" data-piece="${p.cle}" aria-hidden="true">
-      <span class="rangee-num">0${i + 1}</span>
-      ${brut(piece(p.cle, 320))}
+<section class="detail" id="detail" aria-label="${c.s('depannages.titre')}">
+  <div class="conteneur detail-grille">
+    <div class="detail-visuel" aria-hidden="true">
+      <div class="detail-cadre">
+        ${c.donnees.pannes.map((p, i) => html`<div class="detail-photo${i === 0 ? ' est-active' : ''}" data-detail="${p.cle}">${c.media({ nom: p.image, alt: '', cadrage: p.cadrage, classe: 'detail-media', sizes: '(max-width: 899px) 1px, 44vw' })}</div>`)}
+        <div class="detail-pastille" data-effet="pieces">
+          ${c.donnees.pannes.map((p, i) => html`<div class="detail-piece${i === 0 ? ' est-active' : ''}" data-detail-piece="${p.cle}">${brut(piece(p.cle, 120))}</div>`)}
+        </div>
+        <p class="detail-compteur"><span class="detail-num">01</span> / 0${c.donnees.pannes.length}</p>
+      </div>
     </div>
-    <div class="rangee-texte">
-      <p class="surtitre" data-anime>${p.materiau}</p>
-      <h2 data-anime="lignes">${p.titre}</h2>
-      <p class="rangee-cause" data-anime>${p.cause}</p>
-      <h3 class="rangee-sous" data-anime>${c.t('depannages.symptomes')}</h3>
-      <ul class="rangee-liste" data-anime="cascade">${p.symptomes.map((s) => html`<li>${s}</li>`)}</ul>
-      <p class="rangee-action" data-anime><strong>${c.t('depannages.ceQuOnFait')}</strong> ${p.action}</p>
-      <p data-anime>${c.lien('contact', { ancre: 'demande', params: 'panne=' + p.cle, classe: 'bouton', texte: html`${p.bouton}` })}</p>
+    <div class="detail-articles">
+      ${c.donnees.pannes.map((p, i) => html`<article class="detail-article" id="${p.cle}" data-detail-article="${p.cle}">
+        <div class="detail-dessin" data-effet="pieces" aria-hidden="true"><span class="rangee-num">0${i + 1}</span>${brut(piece(p.cle, 200))}</div>
+        <p class="surtitre" data-anime>${p.materiau}</p>
+        <h2 data-anime="lignes">${p.titre}</h2>
+        <p class="rangee-cause" data-anime>${p.cause}</p>
+        <h3 class="rangee-sous" data-anime>${c.t('depannages.symptomes')}</h3>
+        <ul class="rangee-liste" data-anime="cascade">${p.symptomes.map((s) => html`<li>${s}</li>`)}</ul>
+        <p class="rangee-action" data-anime><strong>${c.t('depannages.ceQuOnFait')}</strong> ${p.action}</p>
+        <p data-anime>${c.lien('contact', { ancre: 'demande', params: 'panne=' + p.cle, classe: 'bouton', texte: html`${p.bouton}` })}</p>
+      </article>`)}
     </div>
   </div>
-</section>`)}
+</section>
 
 <section class="autres" id="autres">
   <div class="conteneur autres-grille">
@@ -58,7 +66,11 @@ ${c.donnees.pannes.map((p, i) => html`<section class="rangee${i % 2 ? ' rangee--
     <div class="faq-tete">
       <p class="surtitre" data-anime>${c.t('depannages.faq.surtitre')}</p>
       <h2 data-anime="lignes">${c.t('depannages.faq.titre')}</h2>
-      ${c.media({ nom: 'intervention', alt: c.s('contact.photo.legende'), cadrage: '50% 55%', classe: 'faq-media', sizes: '(max-width: 760px) 92vw, 30vw', attrs: 'data-anime="rideau"' })}
+      <div class="faq-carte" data-anime>
+        <p class="faq-carte-titre">${c.t('depannages.faq.carteTitre')}</p>
+        <p><a class="faq-carte-tel" href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a></p>
+        <p>${c.lien('contact', { ancre: 'demande', classe: 'lien-fleche', texte: c.t('commun.actionEntete') })}</p>
+      </div>
     </div>
     <div class="faq-liste" data-anime="cascade">
       ${c.donnees.faq.map((f) => html`<details class="faq-item"><summary>${f.q}</summary><p>${f.r}</p></details>`)}

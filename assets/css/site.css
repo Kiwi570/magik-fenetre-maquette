@@ -489,10 +489,12 @@ html.js:not(.secours):not([data-arrivee="retour"]) .contact-paire > span { trans
 :is(html.secours, html:not(.js)) .facade-mot { padding-inline: var(--gouttiere); text-align: left; }
 :is(html.secours, html:not(.js)) .facade-media { aspect-ratio: 16 / 9; height: auto; margin: 16px 0; }
 :is(html.secours, html:not(.js)) .facade-legende { display: inline-block; }
-/* Façade sur téléphone : les mots au-dessus et au-dessous de la vignette, pas sur elle. */
+/* Façade : « On garde » au-dessus de la vignette, « la fenêtre. » au-dessous ; ils s'effacent quand l'image s'ouvre. */
+html.js:not(.secours) .facade-mot--g { align-self: start; translate: none; margin-top: calc(var(--entete-h) + max(2svh, 10px)); }
+html.js:not(.secours) .facade-mot--d { align-self: end; translate: none; margin-bottom: calc(var(--barres-h) + max(5svh, 16px)); }
+.facade-mot { font-size: clamp(2.4rem, min(8.4vw, 14.5svh), 8.4rem); }
 @media (max-width: 760px) {
-  html.js:not(.secours) .facade-mot--g { justify-self: center; padding: 0; translate: 0 -33svh; }
-  html.js:not(.secours) .facade-mot--d { justify-self: center; padding: 0; translate: 0 33svh; }
+  html.js:not(.secours) .facade-mot--g, html.js:not(.secours) .facade-mot--d { justify-self: center; padding-inline: 0; }
   .facade-mot { font-size: clamp(2.4rem, 12vw, 3.4rem); }
 }
 
@@ -513,3 +515,88 @@ html.intro-finie .hero-vitre .vantail-reflet { animation: reflet 4.6s cubic-bezi
 .fpe__carton { container-type: inline-size; }
 @container (max-width: 700px) { .fpe__repere:not([aria-current]) .fpe__nom { display: none; } }
 @media (max-height: 640px) and (min-width: 761px) { .reparer-intro { display: none; } .reparer-titre { font-size: clamp(2.2rem, 9vh, 3.4rem); } }
+
+/* ---------- v2 ---------- */
+/* Barre fixe du téléphone : libellés sur une ligne. */
+[data-barre-fixe] .bouton { white-space: nowrap; padding-inline: 12px; font-size: .98rem; gap: .45em; }
+@media (max-width: 359px) { [data-barre-fixe] .bouton { font-size: .9rem; padding-inline: 8px; } }
+
+/* Menu plein écran : grands liens numérotés, numéro et actions en bas. */
+[data-menu] { display: flex; flex-direction: column; gap: 28px; }
+[data-menu] .menu-liste { counter-reset: menu; margin: 0; border-top: 1px solid color-mix(in srgb, var(--fond) 18%, var(--marine)); }
+[data-menu] .menu-liste li { counter-increment: menu; border-bottom: 1px solid color-mix(in srgb, var(--fond) 18%, var(--marine)); }
+[data-menu] .menu-lien { gap: 16px; min-height: 64px; font-size: clamp(1.9rem, 8.4vw, 3rem); letter-spacing: -.03em; color: var(--fond); }
+[data-menu] .menu-lien::before { content: counter(menu, decimal-leading-zero); font-family: var(--police-texte); font-weight: 700; font-size: .9rem; letter-spacing: 0; color: var(--accent-clair); }
+[data-menu] .menu-lien::after { content: '→'; margin-left: auto; font-size: .7em; opacity: .45; transition: transform .3s var(--courbe), opacity .3s; }
+[data-menu] .menu-lien:hover::after { transform: translateX(6px); opacity: 1; }
+.menu-pied { display: grid; gap: 10px; margin-top: auto; opacity: 0; transform: translateY(12px); transition: opacity .4s var(--courbe) .3s, transform .4s var(--courbe) .3s; }
+html.menu-ouvert .menu-pied { opacity: 1; transform: none; }
+.menu-pied p { margin: 0; }
+.menu-surtitre { font-weight: 700; color: var(--accent-clair); font-size: .95rem; }
+.menu-tel a { display: inline-flex; align-items: center; min-height: 44px; font-family: var(--police-titres); font-weight: 800; font-size: clamp(2rem, 9vw, 3.2rem); letter-spacing: -.03em; color: #fff; text-decoration: none; font-variant-numeric: tabular-nums; }
+.menu-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.menu-zone { font-size: .95rem; color: color-mix(in srgb, var(--fond) 80%, var(--marine)); }
+
+/* Cartes des pannes : photos carrées, la grille tient dans un écran. */
+.panne-media { aspect-ratio: 1; }
+.panne-piece { top: calc(100cqw - 38px); }
+@media (max-width: 600px) { .panne-media { aspect-ratio: 16 / 10; } .panne-piece { top: calc(62.5cqw - 38px); } }
+
+/* Vue éclatée : volumes plus lisibles sur le marine. */
+.eclate .vec__dessus { fill: color-mix(in oklab, #dbe8f2 26%, var(--marine)); stroke: #c9dceb; stroke-width: 1.6; }
+.eclate .vec__flanc--g { fill: color-mix(in oklab, #dbe8f2 12%, var(--marine)); stroke: #9fbbd2; stroke-width: 1; }
+.eclate .vec__flanc--d { fill: color-mix(in oklab, #dbe8f2 6%, var(--marine)); stroke: #9fbbd2; stroke-width: 1; }
+.eclate .vec__piece[data-piece="4"] .vec__dessus { fill: color-mix(in oklab, #bfe0f7 42%, var(--marine)); }
+.eclate .vec__detail { stroke: #fff; stroke-width: 5; stroke-linecap: round; opacity: .55; }
+.eclate .vec__piece[data-piece="3"] .vec__dessus { fill: var(--accent-clair); stroke: #ffd2cf; }
+.eclate .vec__piece[data-piece="3"] .vec__flanc { fill: #c8202a; stroke: #ff9f9b; }
+.eclate .vec__piece[data-piece="3"] .vec__creux { fill: #7a1016; }
+.eclate .vec__piece[data-piece="1"] .vec__dessus { fill: #f5f2eb; stroke: #fff; }
+.eclate .vec__piece[data-piece="1"] .vec__flanc { fill: #b9c6d2; }
+
+/* Dépannages : panneau collant (photo + pièce animée) qui suit la panne lue, articles à droite. */
+.detail { padding-block: clamp(64px, 9vw, 120px); }
+.detail-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 88px); align-items: start; }
+.detail-visuel { position: sticky; top: calc(var(--entete-h) + 24px); }
+.detail-cadre { position: relative; height: min(calc(100svh - var(--entete-h) - 64px), 720px); border: clamp(10px, 1vw, 14px) solid var(--marine); border-bottom-width: clamp(16px, 1.6vw, 22px); border-radius: 10px; background: var(--marine); box-shadow: var(--ombre); overflow: hidden; }
+.detail-photo { position: absolute; inset: 0; opacity: 0; transform: scale(1.04); transition: opacity .6s var(--courbe), transform 1.2s var(--courbe); }
+.detail-photo.est-active { opacity: 1; transform: none; }
+.detail-media { width: 100%; height: 100%; border-radius: 2px; }
+.detail-pastille { position: absolute; left: 20px; bottom: 20px; z-index: 2; width: 132px; height: 132px; border-radius: 50%; background: var(--fond); box-shadow: 0 10px 30px rgba(20, 27, 43, .3); }
+.detail-piece { position: absolute; inset: 0; display: grid; place-items: center; opacity: 0; }
+.detail-piece.est-active { opacity: 1; }
+.detail-piece svg { width: 100px; height: 100px; }
+.detail-compteur { position: absolute; right: 18px; top: 16px; z-index: 2; margin: 0; padding: 6px 14px; border-radius: 999px; background: var(--fond); color: var(--marine); font-weight: 700; font-variant-numeric: tabular-nums; }
+.detail-num { font-family: var(--police-titres); font-weight: 800; color: var(--accent); }
+.detail-article { padding-block: clamp(24px, 10svh, 120px); min-height: min(86svh, 760px); display: flex; flex-direction: column; justify-content: center; }
+.detail-article + .detail-article { border-top: 2px solid color-mix(in srgb, var(--marine) 12%, var(--fond)); }
+.detail-article h2 { color: var(--marine); }
+.detail-dessin { display: none; }
+@media (max-width: 899px) {
+  .detail-grille { grid-template-columns: minmax(0, 1fr); }
+  .detail-visuel { display: none; }
+  .detail-article { min-height: 0; padding-block: 40px; }
+  .detail-dessin { position: relative; display: grid; place-items: center; aspect-ratio: 16 / 9; margin-bottom: 20px; border-radius: 22px; background: linear-gradient(160deg, #e6edf2, var(--verre-2)); box-shadow: inset 0 0 0 10px var(--marine); }
+  .detail-dessin svg { width: auto; height: 68%; }
+}
+
+/* FAQ : carte d'appel dans la colonne de gauche. */
+.faq-carte { margin-top: 24px; padding: 22px 24px; border-radius: var(--rayon); background: var(--marine); color: var(--fond); }
+.faq-carte p { margin: 0; }
+.faq-carte-titre { font-weight: 700; }
+.faq-carte-tel { display: inline-flex; align-items: center; min-height: 44px; font-family: var(--police-titres); font-weight: 800; font-size: clamp(1.8rem, 1.4rem + 1.4vw, 2.6rem); letter-spacing: -.03em; color: #fff; text-decoration: none; font-variant-numeric: tabular-nums; }
+.faq-carte .lien-fleche { color: var(--fond); }
+/* FAQ : la réponse se déplie en douceur. */
+.faq-item p { animation: deplie .45s var(--courbe); }
+@keyframes deplie { from { opacity: 0; transform: translateY(-6px); } }
+
+/* Réparer : les visuels des deux raisons dans un panneau de verre. */
+.raison-visuel { justify-content: center; height: clamp(170px, 18vw, 220px); border-radius: 12px; background: linear-gradient(160deg, #e9eff3, var(--verre-2)); box-shadow: inset 0 0 0 8px var(--marine); overflow: hidden; }
+.raison-visuel--pieces { gap: clamp(10px, 2vw, 28px); }
+.raison-visuel--pieces svg { width: clamp(72px, 8vw, 112px); height: clamp(72px, 8vw, 112px); }
+.raison-mur { height: 100%; width: 100%; }
+.ou-carte { width: min(78%, 360px); }
+[data-menu] .bouton--clair { background: var(--fond); color: var(--marine); }
+[data-menu] .bouton--clair:hover { background: #fff; color: var(--accent); }
+[data-menu] .menu-lien { font-size: clamp(1.6rem, 7vw, 3rem); }
+@media (max-width: 420px) { [data-menu] .menu-lien::after { display: none; } }

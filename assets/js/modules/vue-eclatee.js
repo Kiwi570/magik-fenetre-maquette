@@ -3,7 +3,7 @@
 // La liste des légendes (boutons) est l'équivalent lisible du schéma : survol ou focus met la pièce en valeur, clic la garde.
 // Téléphone ou écran bas : pas d'épinglage, l'objet s'éclate pendant que le schéma traverse l'écran (sans recomposition).
 // Mode calme : objet éclaté, tous les traits et toutes les étiquettes visibles, rien ne bouge.
-import { pret } from './socle.js?v=1';
+import { pret } from './socle.js?v=2';
 
 const NS = 'http://www.w3.org/2000/svg';
 

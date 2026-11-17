@@ -121,7 +121,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="facade" id="facade" data-fx="plein-ecran" aria-labelledby="facade-titre">
+<section class="facade" id="facade" data-fx="plein-ecran" data-fx-depart="inset(27% 31% 27% 31% round 24px)" aria-labelledby="facade-titre">
   <div data-collant class="facade-cadre">
     <h2 class="visuellement-cache" id="facade-titre">${c.t('accueil.facade.titre')}</h2>
     <p class="facade-mot facade-mot--g" data-fx-ecarte="g" aria-hidden="true">${c.t('accueil.facade.gauche')}</p>

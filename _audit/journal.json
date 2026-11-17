@@ -100,6 +100,53 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "favoris.json absent du dépôt bibliotheque-maquettes au 17/11 : liste recréée en local (19 favorites présentes dans la bibliothèque ; Fit-Tri, Exco et Ice Attitude n'y sont pas). Construction des pages intérieures menée pendant l'attente des images Grok (visuels provisoires), images posées à 14:05."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1",
+      "perimetre": [
+        "accueil",
+        "depannages",
+        "reparer-plutot-que-remplacer",
+        "contact",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "revue complète et améliorations",
+          "budget": 40,
+          "debut": "2026-11-17T20:08:21+01:00",
+          "fin": "2026-11-17T20:17:03+01:00"
+        },
+        {
+          "etape": "audit complet et corrections",
+          "budget": 50,
+          "debut": "2026-11-17T20:17:03+01:00",
+          "fin": "2026-11-17T20:57:30+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-17T20:57:30+01:00",
+          "fin": "2026-11-17T21:00:00+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [
+        "vue-eclatee",
+        "formulaire-par-etapes",
+        "rature-au-stylo"
+      ],
+      "audit": {
+        "niveau": "complet",
+        "echecsPremierPassage": 0,
+        "relances": 0,
+        "corrections": []
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Demande de l'utilisateur : audit complet et analyse approfondie (UX, visuels, design, animations), version optimale."
     }
   ]
 }

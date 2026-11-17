@@ -6,7 +6,7 @@ import { piece } from '../gabarits/dessins.mjs';
 
 export const page = { cle: 'reparer', fichier: 'reparer-plutot-que-remplacer', imagePartage: 'grok/reparer-ouverture-1280.webp' };
 
-const MUR = `<svg class="raison-mur" viewBox="0 0 240 160" aria-hidden="true" data-fx="trace">
+const MUR = `<svg class="raison-mur" viewBox="0 0 240 160" preserveAspectRatio="xMidYMid slice" aria-hidden="true" data-fx="trace">
   <g class="mur-briques">${Array.from({ length: 8 }, (_, r) => Array.from({ length: 7 }, (_, k) => `<rect x="${(k * 36 - (r % 2) * 18).toFixed(0)}" y="${r * 20}" width="34" height="18" rx="1.5"/>`).join('')).join('')}</g>
   <rect x="78" y="22" width="84" height="116" rx="3" class="mur-trou"/>
   <rect x="84" y="28" width="72" height="104" rx="2" class="mur-fenetre" data-fx-trait/>

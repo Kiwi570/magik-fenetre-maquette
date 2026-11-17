@@ -1,17 +1,13 @@
 {
- "id": "20261117-140135-standard-partiel",
- "date": "2026-11-17T14:05:50.807Z",
- "niveau": "standard",
+ "id": "20261117-191703-complet",
+ "date": "2026-11-17T19:34:58.674Z",
+ "niveau": "complet",
  "pages": "toutes",
- "etapes": [
-  "films",
-  "mouvement",
-  "ecran"
- ],
- "version": "1",
+ "etapes": "toutes",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 1,
- "nonLances": 0,
+ "aRegarder": 13,
+ "nonLances": 1,
  "manquants": 0,
  "statut": "complet"
 }

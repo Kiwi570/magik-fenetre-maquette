@@ -141,7 +141,8 @@
     },
     "faq": {
       "surtitre": "Questions fréquentes",
-      "titre": "Avant d'appeler"
+      "titre": "Avant d'appeler",
+      "carteTitre": "Pas trouvé votre réponse ? Le plus simple : appelez."
     }
   },
   "reparer": {
@@ -186,7 +187,7 @@
     "form": {
       "surtitre": "Par écrit",
       "titre": "Décrire ma panne",
-      "intro": "Quatre étapes, une minute. Formulaire de démonstration : rien n'est envoyé.",
+      "intro": "Quatre questions, puis un récapitulatif. Formulaire de démonstration : rien n'est envoyé.",
       "etape1": "Menuiserie",
       "q1": "Sur quelle menuiserie ?",
       "fenetre": "Fenêtre",

@@ -3,7 +3,7 @@
    Effets du plan (data-effet) : coulisse (intro, vitre de l'accueil), pieces (roulette, crémone, poignée au défilement),
    eclate (module vue-eclatee), diagnostic (schéma cliquable), mascotte (appel final et 404), carte (Hauts-de-France),
    numero (numéro du contact). */
-import { demarrer, quand } from './socle/index.js?v=1';
+import { demarrer, quand } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -15,11 +15,11 @@ const page = document.body && $('main') ? ($('.hero') ? 'accueil' : $('.tete-gea
 const modules = [];
 function chargerModules() {
   const eclate = $('[data-module="vue-eclatee"]');
-  if (eclate) modules.push(import('./modules/vue-eclatee.js?v=1').then((m) => m.init(eclate, { ecart: 70, longueur: 1.6, recomposer: true })));
+  if (eclate) modules.push(import('./modules/vue-eclatee.js?v=2').then((m) => m.init(eclate, { ecart: 70, longueur: 1.6, recomposer: true })));
   const fpe = $('[data-module="formulaire-par-etapes"]');
   if (fpe) {
     preremplir(fpe);
-    modules.push(import('./modules/formulaire-par-etapes.js?v=1').then((m) => {
+    modules.push(import('./modules/formulaire-par-etapes.js?v=2').then((m) => {
       const r = m.init(fpe, { sujet: 'Panne de menuiserie' });
       fpe.addEventListener('formulaire:envoye', () => { const fin = $('.fpe__fin', fpe); if (fin) setTimeout(() => fin.scrollIntoView({ block: 'center' }), 60); });
       return r;
@@ -128,6 +128,44 @@ function numero() {
   gsap.fromTo(a, { x: 0 }, { x: () => -Math.min(80, innerWidth * 0.05), ease: 'none', immediateRender: false, scrollTrigger: { trigger: '.contact-tete', start: 'top top', end: 'bottom top', scrub: 0.5, invalidateOnRefresh: true } });
 }
 
+/* ---------- Façade : les mots s'effacent quand l'image s'ouvre, pour ne jamais rester sur la photo ---------- */
+function facade() {
+  const el = $('.facade');
+  if (!el || !gsap || !ST) return;
+  gsap.timeline({ scrollTrigger: { trigger: el, start: 'top top', end: 'bottom bottom', scrub: 0.6, invalidateOnRefresh: true } })
+    .fromTo($$('.facade-mot', el), { opacity: 1 }, { opacity: 0, duration: 0.22, ease: 'none', immediateRender: false }, 0.26)
+    .to({}, { duration: 0.52 });
+}
+
+/* ---------- Dépannages : le panneau collant suit la panne lue ---------- */
+function detail() {
+  const bloc = $('.detail');
+  if (!bloc || !ST) return;
+  const photos = $$('[data-detail]', bloc);
+  const dessins = $$('[data-detail-piece]', bloc);
+  const num = $('.detail-num', bloc);
+  let actif = '';
+  const activer = (cle, i) => {
+    if (cle === actif) return;
+    actif = cle;
+    photos.forEach((p) => p.classList.toggle('est-active', p.dataset.detail === cle));
+    dessins.forEach((d) => d.classList.toggle('est-active', d.dataset.detailPiece === cle));
+    if (num) num.textContent = '0' + (i + 1);
+    const d = dessins.find((x) => x.dataset.detailPiece === cle);
+    if (d && gsap) {
+      gsap.fromTo(d, { scale: 0.7, rotation: -12, opacity: 0 }, { scale: 1, rotation: 0, opacity: 1, duration: 0.6, ease: 'back.out(1.7)', overwrite: 'auto' });
+      const rot = $('.rot', d), cames = $('.cames', d), levier = $('.levier', d);
+      if (rot) { gsap.set(rot, { svgOrigin: '40 40' }); gsap.fromTo(rot, { rotation: 0 }, { rotation: 360, duration: 1.2, ease: 'power2.out' }); }
+      if (cames) gsap.fromTo(cames, { y: -8 }, { y: 0, duration: 0.8, ease: 'back.out(2.2)' });
+      if (levier) { gsap.set(levier, { svgOrigin: '40 26' }); gsap.fromTo(levier, { rotation: -90 }, { rotation: 0, duration: 0.9, ease: 'back.out(1.8)' }); }
+    }
+  };
+  $$('[data-detail-article]', bloc).forEach((a, i) => {
+    ST.create({ trigger: a, start: 'top 60%', end: 'bottom 60%', onToggle: (s) => { if (s.isActive) activer(a.dataset.detailArticle, i); } });
+  });
+  activer($('[data-detail-article]', bloc).dataset.detailArticle, 0);
+}
+
 /* ---------- Ouverture de chaque page ---------- */
 function entree(tl, t0) {
   const sel = (s) => $$(s).length ? s : null;
@@ -152,7 +190,7 @@ let ratureFaite = false;
 function rature() {
   if (ratureFaite) return; ratureFaite = true;
   const h = $('[data-module="rature-au-stylo"]');
-  if (h) import('./modules/rature-au-stylo.js?v=1').then((m) => m.init(h, { declencheur: 'apparition', delai: 0, duree: 0.8 })).catch(() => {});
+  if (h) import('./modules/rature-au-stylo.js?v=2').then((m) => m.init(h, { declencheur: 'apparition', delai: 0, duree: 0.8 })).catch(() => {});
 }
 
 demarrer({
@@ -164,6 +202,8 @@ demarrer({
     mascotte();
     carte();
     numero();
+    facade();
+    detail();
   },
   /* Intro (environ 2,2 s) : le reflet balaie la baie, le vantail droit coulisse sur le gauche avec un rebond de roulette
      (la page apparaît à droite), puis les deux vantaux partent à gauche ; le titre arrive pendant ce temps. */

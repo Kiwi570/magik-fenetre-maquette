@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,15 +35,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/bricolage-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f5f2eb">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -104,8 +104,13 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <span id="menu-ferme" aria-hidden="true"></span>
 <div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
   <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
-  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/depannages" class="menu-lien" data-libelle="Dépannages" aria-current="page">Dépannages</a></li><li style="--i:2"><a href="/reparer-plutot-que-remplacer" class="menu-lien" data-libelle="Réparer ou remplacer">Réparer ou remplacer</a></li><li style="--i:3"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
-  <p><a class="bouton" href="tel:+33627585806">Appeler 06 27 58 58 06</a></p>
+  <ul class="menu-liste"><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/depannages" class="menu-lien" data-libelle="Dépannages" aria-current="page">Dépannages</a></li><li style="--i:2"><a href="/reparer-plutot-que-remplacer" class="menu-lien" data-libelle="Réparer ou remplacer">Réparer ou remplacer</a></li><li style="--i:3"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <div class="menu-pied">
+    <p class="menu-surtitre">Un appel suffit</p>
+    <p class="menu-tel"><a href="tel:+33627585806">06 27 58 58 06</a></p>
+    <p class="menu-actions"><a class="bouton" href="tel:+33627585806"><svg class="icone-tel" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Appeler</a> <a href="/contact#demande" class="bouton bouton--clair" data-libelle="Contact">Décrire ma panne</a></p>
+    <p class="menu-zone">Spécialiste dans la réparation de menuiseries · Hauts-de-France</p>
+  </div>
 </div>
 <main id="contenu" tabindex="-1">
 <section class="tete-geante" id="debut">
@@ -128,52 +133,58 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </figure>
   </div>
 </section>
-<section class="rangee" id="roulettes">
-  <div class="conteneur rangee-grille">
-    <div class="rangee-dessin" data-effet="pieces" data-piece="roulettes" aria-hidden="true">
-      <span class="rangee-num">01</span>
-      <svg viewBox="0 0 80 80" width="320" height="320" class="piece piece--roulettes"><rect x="6" y="62" width="68" height="6" rx="3" class="p-rail"/><g class="rot"><circle cx="40" cy="40" r="27" class="p-pneu"/><circle cx="40" cy="40" r="22" class="p-jante"/><g class="p-rayons"><line x1="49.0" y1="40.0" x2="62.0" y2="40.0"/><line x1="44.5" y1="47.8" x2="51.0" y2="59.1"/><line x1="35.5" y1="47.8" x2="29.0" y2="59.1"/><line x1="31.0" y1="40.0" x2="18.0" y2="40.0"/><line x1="35.5" y1="32.2" x2="29.0" y2="20.9"/><line x1="44.5" y1="32.2" x2="51.0" y2="20.9"/></g><circle cx="40" cy="40" r="7" class="p-moyeu"/><circle cx="40" cy="40" r="2.6" class="p-axe"/><circle cx="40" cy="18.5" r="2.4" class="p-repere"/></g></svg>
+<section class="detail" id="detail" aria-label="Dépannages">
+  <div class="conteneur detail-grille">
+    <div class="detail-visuel" aria-hidden="true">
+      <div class="detail-cadre">
+        <div class="detail-photo est-active" data-detail="roulettes"><figure class="media detail-media" data-grok style="--cadrage:40% 72%">
+  <picture>
+    <img src="/assets/images/grok/panne-roulettes-784.webp" srcset="/assets/images/grok/panne-roulettes-480.webp 480w, /assets/images/grok/panne-roulettes-640.webp 640w, /assets/images/grok/panne-roulettes-784.webp 784w" sizes="(max-width: 899px) 1px, 44vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure></div><div class="detail-photo" data-detail="cremone"><figure class="media detail-media" data-grok style="--cadrage:58% 45%">
+  <picture>
+    <img src="/assets/images/grok/panne-cremone-784.webp" srcset="/assets/images/grok/panne-cremone-480.webp 480w, /assets/images/grok/panne-cremone-640.webp 640w, /assets/images/grok/panne-cremone-784.webp 784w" sizes="(max-width: 899px) 1px, 44vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure></div><div class="detail-photo" data-detail="poignee"><figure class="media detail-media" data-grok style="--cadrage:57% 35%">
+  <picture>
+    <img src="/assets/images/grok/panne-poignee-784.webp" srcset="/assets/images/grok/panne-poignee-480.webp 480w, /assets/images/grok/panne-poignee-640.webp 640w, /assets/images/grok/panne-poignee-784.webp 784w" sizes="(max-width: 899px) 1px, 44vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure></div>
+        <div class="detail-pastille" data-effet="pieces">
+          <div class="detail-piece est-active" data-detail-piece="roulettes"><svg viewBox="0 0 80 80" width="120" height="120" class="piece piece--roulettes"><rect x="6" y="62" width="68" height="6" rx="3" class="p-rail"/><g class="rot"><circle cx="40" cy="40" r="27" class="p-pneu"/><circle cx="40" cy="40" r="22" class="p-jante"/><g class="p-rayons"><line x1="49.0" y1="40.0" x2="62.0" y2="40.0"/><line x1="44.5" y1="47.8" x2="51.0" y2="59.1"/><line x1="35.5" y1="47.8" x2="29.0" y2="59.1"/><line x1="31.0" y1="40.0" x2="18.0" y2="40.0"/><line x1="35.5" y1="32.2" x2="29.0" y2="20.9"/><line x1="44.5" y1="32.2" x2="51.0" y2="20.9"/></g><circle cx="40" cy="40" r="7" class="p-moyeu"/><circle cx="40" cy="40" r="2.6" class="p-axe"/><circle cx="40" cy="18.5" r="2.4" class="p-repere"/></g></svg></div><div class="detail-piece" data-detail-piece="cremone"><svg viewBox="0 0 80 80" width="120" height="120" class="piece piece--cremone"><rect x="33" y="6" width="14" height="68" rx="4" class="p-tetiere"/><g class="cames"><rect x="29" y="12" width="22" height="9" rx="4.5" class="p-came"/><rect x="29" y="36" width="22" height="9" rx="4.5" class="p-came"/><rect x="29" y="60" width="22" height="9" rx="4.5" class="p-came"/></g><circle cx="40" cy="40.5" r="2.2" class="p-axe"/></svg></div><div class="detail-piece" data-detail-piece="poignee"><svg viewBox="0 0 80 80" width="120" height="120" class="piece piece--poignee"><rect x="30" y="12" width="20" height="44" rx="10" class="p-rosace"/><circle cx="40" cy="26" r="5" class="p-axe"/><g class="levier"><rect x="35.5" y="22" width="9" height="50" rx="4.5" class="p-levier"/></g><circle cx="40" cy="26" r="3" class="p-moyeu"/></svg></div>
+        </div>
+        <p class="detail-compteur"><span class="detail-num">01</span> / 03</p>
+      </div>
     </div>
-    <div class="rangee-texte">
-      <p class="surtitre" data-anime>baies vitrées</p>
-      <h2 data-anime="lignes">Roulettes de baie vitrée</h2>
-      <p class="rangee-cause" data-anime>Les roulettes du bas, sur lesquelles le vantail glisse, sont usées ou cassées.</p>
-      <h3 class="rangee-sous" data-anime>Les signes</h3>
-      <ul class="rangee-liste" data-anime="cascade"><li>La baie frotte ou grince sur son rail</li><li>Elle accroche, ou sort du rail</li><li>Il faut forcer pour l&#39;ouvrir</li></ul>
-      <p class="rangee-action" data-anime><strong>Ce qu&#39;on fait</strong> Remplacement des roulettes, sur toute baie vitrée.</p>
-      <p data-anime><a href="/contact?panne=roulettes#demande" class="bouton" data-libelle="Contact">Demander pour ma baie</a></p>
-    </div>
-  </div>
-</section><section class="rangee rangee--inverse" id="cremone">
-  <div class="conteneur rangee-grille">
-    <div class="rangee-dessin" data-effet="pieces" data-piece="cremone" aria-hidden="true">
-      <span class="rangee-num">02</span>
-      <svg viewBox="0 0 80 80" width="320" height="320" class="piece piece--cremone"><rect x="33" y="6" width="14" height="68" rx="4" class="p-tetiere"/><g class="cames"><rect x="29" y="12" width="22" height="9" rx="4.5" class="p-came"/><rect x="29" y="36" width="22" height="9" rx="4.5" class="p-came"/><rect x="29" y="60" width="22" height="9" rx="4.5" class="p-came"/></g><circle cx="40" cy="40.5" r="2.2" class="p-axe"/></svg>
-    </div>
-    <div class="rangee-texte">
-      <p class="surtitre" data-anime>PVC et aluminium</p>
-      <h2 data-anime="lignes">Crémone</h2>
-      <p class="rangee-cause" data-anime>La crémone, la tige de verrouillage cachée dans l&#39;ouvrant, est usée ou cassée.</p>
-      <h3 class="rangee-sous" data-anime>Les signes</h3>
-      <ul class="rangee-liste" data-anime="cascade"><li>La fenêtre ferme mal</li><li>La poignée tourne sans verrouiller</li><li>La fenêtre reste bloquée</li></ul>
-      <p class="rangee-action" data-anime><strong>Ce qu&#39;on fait</strong> Remplacement de crémone, en PVC comme en aluminium.</p>
-      <p data-anime><a href="/contact?panne=cremone#demande" class="bouton" data-libelle="Contact">Demander pour ma fenêtre</a></p>
-    </div>
-  </div>
-</section><section class="rangee" id="poignee">
-  <div class="conteneur rangee-grille">
-    <div class="rangee-dessin" data-effet="pieces" data-piece="poignee" aria-hidden="true">
-      <span class="rangee-num">03</span>
-      <svg viewBox="0 0 80 80" width="320" height="320" class="piece piece--poignee"><rect x="30" y="12" width="20" height="44" rx="10" class="p-rosace"/><circle cx="40" cy="26" r="5" class="p-axe"/><g class="levier"><rect x="35.5" y="22" width="9" height="50" rx="4.5" class="p-levier"/></g><circle cx="40" cy="26" r="3" class="p-moyeu"/></svg>
-    </div>
-    <div class="rangee-texte">
-      <p class="surtitre" data-anime>toutes menuiseries</p>
-      <h2 data-anime="lignes">Poignée</h2>
-      <p class="rangee-cause" data-anime>La poignée elle-même est en cause : on la change sans toucher au reste.</p>
-      <h3 class="rangee-sous" data-anime>Les signes</h3>
-      <ul class="rangee-liste" data-anime="cascade"><li>La poignée est cassée</li><li>Elle branle ou ne tient plus</li><li>Elle force ou se bloque</li></ul>
-      <p class="rangee-action" data-anime><strong>Ce qu&#39;on fait</strong> Remplacement de poignée.</p>
-      <p data-anime><a href="/contact?panne=poignee#demande" class="bouton" data-libelle="Contact">Demander pour ma poignée</a></p>
+    <div class="detail-articles">
+      <article class="detail-article" id="roulettes" data-detail-article="roulettes">
+        <div class="detail-dessin" data-effet="pieces" aria-hidden="true"><span class="rangee-num">01</span><svg viewBox="0 0 80 80" width="200" height="200" class="piece piece--roulettes"><rect x="6" y="62" width="68" height="6" rx="3" class="p-rail"/><g class="rot"><circle cx="40" cy="40" r="27" class="p-pneu"/><circle cx="40" cy="40" r="22" class="p-jante"/><g class="p-rayons"><line x1="49.0" y1="40.0" x2="62.0" y2="40.0"/><line x1="44.5" y1="47.8" x2="51.0" y2="59.1"/><line x1="35.5" y1="47.8" x2="29.0" y2="59.1"/><line x1="31.0" y1="40.0" x2="18.0" y2="40.0"/><line x1="35.5" y1="32.2" x2="29.0" y2="20.9"/><line x1="44.5" y1="32.2" x2="51.0" y2="20.9"/></g><circle cx="40" cy="40" r="7" class="p-moyeu"/><circle cx="40" cy="40" r="2.6" class="p-axe"/><circle cx="40" cy="18.5" r="2.4" class="p-repere"/></g></svg></div>
+        <p class="surtitre" data-anime>baies vitrées</p>
+        <h2 data-anime="lignes">Roulettes de baie vitrée</h2>
+        <p class="rangee-cause" data-anime>Les roulettes du bas, sur lesquelles le vantail glisse, sont usées ou cassées.</p>
+        <h3 class="rangee-sous" data-anime>Les signes</h3>
+        <ul class="rangee-liste" data-anime="cascade"><li>La baie frotte ou grince sur son rail</li><li>Elle accroche, ou sort du rail</li><li>Il faut forcer pour l&#39;ouvrir</li></ul>
+        <p class="rangee-action" data-anime><strong>Ce qu&#39;on fait</strong> Remplacement des roulettes, sur toute baie vitrée.</p>
+        <p data-anime><a href="/contact?panne=roulettes#demande" class="bouton" data-libelle="Contact">Demander pour ma baie</a></p>
+      </article><article class="detail-article" id="cremone" data-detail-article="cremone">
+        <div class="detail-dessin" data-effet="pieces" aria-hidden="true"><span class="rangee-num">02</span><svg viewBox="0 0 80 80" width="200" height="200" class="piece piece--cremone"><rect x="33" y="6" width="14" height="68" rx="4" class="p-tetiere"/><g class="cames"><rect x="29" y="12" width="22" height="9" rx="4.5" class="p-came"/><rect x="29" y="36" width="22" height="9" rx="4.5" class="p-came"/><rect x="29" y="60" width="22" height="9" rx="4.5" class="p-came"/></g><circle cx="40" cy="40.5" r="2.2" class="p-axe"/></svg></div>
+        <p class="surtitre" data-anime>PVC et aluminium</p>
+        <h2 data-anime="lignes">Crémone</h2>
+        <p class="rangee-cause" data-anime>La crémone, la tige de verrouillage cachée dans l&#39;ouvrant, est usée ou cassée.</p>
+        <h3 class="rangee-sous" data-anime>Les signes</h3>
+        <ul class="rangee-liste" data-anime="cascade"><li>La fenêtre ferme mal</li><li>La poignée tourne sans verrouiller</li><li>La fenêtre reste bloquée</li></ul>
+        <p class="rangee-action" data-anime><strong>Ce qu&#39;on fait</strong> Remplacement de crémone, en PVC comme en aluminium.</p>
+        <p data-anime><a href="/contact?panne=cremone#demande" class="bouton" data-libelle="Contact">Demander pour ma fenêtre</a></p>
+      </article><article class="detail-article" id="poignee" data-detail-article="poignee">
+        <div class="detail-dessin" data-effet="pieces" aria-hidden="true"><span class="rangee-num">03</span><svg viewBox="0 0 80 80" width="200" height="200" class="piece piece--poignee"><rect x="30" y="12" width="20" height="44" rx="10" class="p-rosace"/><circle cx="40" cy="26" r="5" class="p-axe"/><g class="levier"><rect x="35.5" y="22" width="9" height="50" rx="4.5" class="p-levier"/></g><circle cx="40" cy="26" r="3" class="p-moyeu"/></svg></div>
+        <p class="surtitre" data-anime>toutes menuiseries</p>
+        <h2 data-anime="lignes">Poignée</h2>
+        <p class="rangee-cause" data-anime>La poignée elle-même est en cause : on la change sans toucher au reste.</p>
+        <h3 class="rangee-sous" data-anime>Les signes</h3>
+        <ul class="rangee-liste" data-anime="cascade"><li>La poignée est cassée</li><li>Elle branle ou ne tient plus</li><li>Elle force ou se bloque</li></ul>
+        <p class="rangee-action" data-anime><strong>Ce qu&#39;on fait</strong> Remplacement de poignée.</p>
+        <p data-anime><a href="/contact?panne=poignee#demande" class="bouton" data-libelle="Contact">Demander pour ma poignée</a></p>
+      </article>
     </div>
   </div>
 </section>
@@ -192,11 +203,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="faq-tete">
       <p class="surtitre" data-anime>Questions fréquentes</p>
       <h2 data-anime="lignes">Avant d&#39;appeler</h2>
-      <figure class="media faq-media" data-anime="rideau" style="--cadrage:50% 55%">
-  <picture>
-    <img src="/assets/images/intervention-800.webp" srcset="/assets/images/intervention-480.webp 480w, /assets/images/intervention-640.webp 640w, /assets/images/intervention-800.webp 800w" sizes="(max-width: 760px) 92vw, 30vw" alt="Une baie coulissante chez un client (photo Magik Fenêtre)." width="800" height="1067" loading="lazy" decoding="async">
-  </picture>
-</figure>
+      <div class="faq-carte" data-anime>
+        <p class="faq-carte-titre">Pas trouvé votre réponse ? Le plus simple : appelez.</p>
+        <p><a class="faq-carte-tel" href="tel:+33627585806">06 27 58 58 06</a></p>
+        <p><a href="/contact#demande" class="lien-fleche" data-libelle="Contact">Décrire ma panne</a></p>
+      </div>
     </div>
     <div class="faq-liste" data-anime="cascade">
       <details class="faq-item"><summary>Ma baie vitrée est devenue dure à faire coulisser : faut-il la changer ?</summary><p>Pas forcément. Quand une baie frotte ou accroche, ce sont souvent les roulettes du bas qui sont usées. Magik Fenêtre les remplace, sur toute baie vitrée.</p></details><details class="faq-item"><summary>Intervenez-vous sur l&#39;aluminium ou seulement sur le PVC ?</summary><p>Sur les deux : Magik Fenêtre remplace les crémones en PVC comme en aluminium.</p></details><details class="faq-item"><summary>Combien coûte une réparation ?</summary><p>Cela dépend de la pièce à changer et de la menuiserie. Appelez ou décrivez votre panne pour en parler : une réparation reste plus économique qu&#39;un remplacement.</p></details><details class="faq-item"><summary>Où intervenez-vous ?</summary><p>Dans la région Hauts-de-France : Nord, Pas-de-Calais, Somme, Oise et Aisne.</p></details><details class="faq-item"><summary>Ma panne n&#39;est pas dans la liste. Que faire ?</summary><p>Magik Fenêtre dépanne toutes les menuiseries. Décrivez la panne, avec une photo si vous le pouvez, ou appelez directement.</p></details>
